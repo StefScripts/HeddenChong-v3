@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(for member in tom-rogic inderpaul-tehara ryan-matkovic gurdeep-roycombough marco-mobilio tim-wong lisa-fong kalen-chang)",
+      "Bash(do echo \"Creating profile for $member\")",
+      "Bash(done)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
