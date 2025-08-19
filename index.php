@@ -18,13 +18,13 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Excellence in Financial Services</h2>
-            <p class="section__subtitle">For over six decades, Hedden Chong LLP has been providing trusted accounting and tax services to individuals, businesses, and organizations throughout British Columbia. Our commitment to excellence and personalized service sets us apart in the industry.</p>
+            <p class="section__subtitle">For over 60 years, Hedden Chong LLP has been providing trusted accounting and tax services to individuals, businesses, and organizations throughout British Columbia. Our commitment to excellence and personalized service sets us apart in the industry.</p>
         </div>
         
         <div class="grid grid--3">
             <div class="fade-in">
                 <h3>Trusted Expertise</h3>
-                <p>Our team of certified professionals brings decades of experience to every client engagement, ensuring accurate and reliable financial guidance you can count on.</p>
+                <p>Our team of over 25 certified professionals brings decades of experience to every client engagement, ensuring accurate and reliable financial guidance you can count on.</p>
             </div>
             <div class="fade-in">
                 <h3>Personalized Service</h3>
@@ -47,28 +47,28 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
         
         <div class="grid grid--2">
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Tax Services</h3>
-                <p class="service-item__description">Complete tax preparation and planning services for individuals, businesses, trusts, and estates. Our expert team ensures compliance while maximizing your tax efficiency.</p>
-                <a href="services.php#tax-services" class="btn btn--secondary">Learn More</a>
-            </div>
-            
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Accounting & Bookkeeping</h3>
-                <p class="service-item__description">Professional accounting services including financial statement preparation, bookkeeping, payroll processing, and month-end/year-end closing procedures.</p>
-                <a href="services.php#accounting" class="btn btn--secondary">Learn More</a>
-            </div>
-            
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Business Advisory</h3>
-                <p class="service-item__description">Strategic business consulting, financial planning, cash flow management, and growth advisory services to help your business thrive in today's competitive market.</p>
-                <a href="services.php#advisory" class="btn btn--secondary">Learn More</a>
-            </div>
-            
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Audit & Assurance</h3>
-                <p class="service-item__description">Independent audit services, review engagements, and assurance services for businesses, non-profits, and other organizations requiring third-party verification.</p>
-                <a href="services.php#audit" class="btn btn--secondary">Learn More</a>
-            </div>
+    <h3 class="service-item__title">Tax Planning & Compliance</h3>
+    <p class="service-item__description">Proactive corporate, personal, and estate tax planning with full CRA compliance—including GST/HST/PST, SR&ED credits, reorganizations, and audit support—to minimize tax and risk.</p>
+    <a href="services.php#tax-planning-compliance" class="btn btn--secondary">Learn More</a>
+</div>
+
+<div class="service-item fade-in">
+    <h3 class="service-item__title">Accounting & Auditing</h3>
+    <p class="service-item__description">Financial statement preparation and assurance services (audit, review, compilation) for private companies and not-for-profits, plus bookkeeping, payroll, and lender/CRA reporting.</p>
+    <a href="services.php#accounting-auditing" class="btn btn--secondary">Learn More</a>
+</div>
+
+<div class="service-item fade-in">
+    <h3 class="service-item__title">Business Valuation</h3>
+    <p class="service-item__description">Independent valuations for transactions, shareholder matters, and tax reorganizations—grounded in rigorous analysis—to quantify value and surface efficiency improvements.</p>
+    <a href="services.php#business-valuation" class="btn btn--secondary">Learn More</a>
+</div>
+
+<div class="service-item fade-in">
+    <h3 class="service-item__title">Mergers & Acquisitions</h3>
+    <p class="service-item__description">End-to-end buy-side and sell-side support: valuation, due diligence, deal structuring, and negotiations—coordinating with your legal advisors for the most advantageous outcome.</p>
+    <a href="services.php#mergers-acquisitions" class="btn btn--secondary">Learn More</a>
+</div>
         </div>
         
         <div class="text-center mt-xl">

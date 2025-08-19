@@ -6,173 +6,188 @@ setPageMeta('Services', 'Comprehensive accounting, tax, audit, and business advi
 <section class="hero hero--internal" style="background-image: url('images/hero-services.jpg');">
     <div class="hero__content">
         <h1 class="hero__title">Our Services</h1>
-        <p class="hero__subtitle">Comprehensive financial solutions for individuals and businesses</p>
+        <p class="hero__subtitle">Tax planning, accounting & auditing, business valuation, and M&A—delivered with precision.</p>
     </div>
 </section>
 
-<section class="section">
+<!-- <section class="section">
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Professional Services Excellence</h2>
-            <p class="section__subtitle">For over six decades, Hedden Chong LLP has provided trusted accounting, tax, and business advisory services. Our comprehensive service offerings are designed to meet your financial needs at every stage of your journey.</p>
+            <p class="section__subtitle">For over six decades, Hedden Chong LLP has provided trusted guidance across tax, assurance, valuation, and transactions. We tailor our approach to your goals while ensuring strong compliance with CRA requirements and clear, decision-ready reporting.</p>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="section section--alt" id="tax-services">
+<section class="section section--alt" id="tax-planning-compliance">
     <div class="container">
-        <h2 class="section__title">Tax Services</h2>
-        <p class="section__subtitle mb-xl">Expert tax preparation, planning, and compliance services for individuals, businesses, trusts, and estates.</p>
+        <h2 class="section__title">Tax Planning & Compliance</h2>
+        <p class="section__subtitle mb-xl">Specialized corporate, personal, and estate tax planning with full CRA compliance—minimizing tax while managing risk.</p>
         
         <div class="grid grid--2">
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Personal Tax Preparation</h3>
-                <p class="service-item__description">Comprehensive personal income tax preparation and filing services for individuals and families. We ensure accuracy while maximizing your tax refund and minimizing your tax liability.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Corporate Tax Planning</h3>
+                <p class="service-item__description">Structuring, income deferral, and remuneration strategies aligned to long-term business goals and cash flow needs.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Personal Tax Planning</h3>
+                <p class="service-item__description">Integrated personal planning for owners and families to optimize after-tax income and wealth preservation.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Estate & Succession Planning</h3>
+                <p class="service-item__description">Estate tax strategies, wills and trusts, and succession roadmaps that protect assets and minimize leakage.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">GST/HST, PST & Commodity Taxes</h3>
+                <p class="service-item__description">Registration, compliance, and recovery reviews across jurisdictions to manage indirect tax exposure and risk.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
             
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Corporate Tax Services</h3>
-                <p class="service-item__description">Complete corporate tax preparation, planning, and compliance for businesses of all sizes. From small corporations to complex multi-entity structures.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">SR&ED & Tax Credits</h3>
+                <p class="service-item__description">Identification, documentation, and claims support for research and development incentives and other credits.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
             
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Tax Planning & Strategy</h3>
-                <p class="service-item__description">Proactive tax planning services to minimize tax burden while ensuring compliance. Strategic advice for major financial decisions and life events.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Corporate Reorganizations</h3>
+                <p class="service-item__description">Tax-efficient reorganizations to simplify structures, enable succession, or prepare for financing or a transaction.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
             
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Estate & Trust Taxation</h3>
-                <p class="service-item__description">Specialized tax services for estates, trusts, and beneficiaries. Expert guidance through complex estate tax matters and succession planning.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Acquisitions & Dispositions (Tax)</h3>
+                <p class="service-item__description">After-tax optimization of buying or selling a business—share vs. asset deals, rollover planning, and elections.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+            
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Compliance & Filings</h3>
+                <p class="service-item__description">Full preparation and filing for corporations, individuals, estates, and trusts—accurate, on time, and defensible.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+            
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">CRA Audits & Negotiations</h3>
+                <p class="service-item__description">Audit assistance, responses, and dispute resolution—practical support to manage risk and reach favourable outcomes.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
         </div>
     </div>
 </section>
 
-<section class="section" id="accounting">
+<section class="section" id="accounting-auditing">
     <div class="container">
-        <h2 class="section__title">Accounting & Bookkeeping</h2>
-        <p class="section__subtitle mb-xl">Professional accounting services to maintain accurate financial records and support informed business decisions.</p>
+        <h2 class="section__title">Accounting & Auditing</h2>
+        <p class="section__subtitle mb-xl">Financial statements and assurance services for private companies, not-for-profits, and owner-managed businesses.</p>
         
         <div class="grid grid--2">
             <div class="service-item fade-in">
                 <h3 class="service-item__title">Financial Statement Preparation</h3>
-                <p class="service-item__description">Preparation of financial statements in accordance with ASPE and IFRS standards. Monthly, quarterly, and annual financial reporting services.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <p class="service-item__description">ASPE/IFRS statements tailored for management, lenders, and investors—clear, consistent, and decision-ready.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
             
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Bookkeeping Services</h3>
-                <p class="service-item__description">Complete bookkeeping solutions including accounts payable/receivable, bank reconciliations, and monthly financial statement preparation.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
-            </div>
-            
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Payroll Services</h3>
-                <p class="service-item__description">Full payroll processing services including payroll calculations, government remittances, T4 preparation, and year-end reporting.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
-            </div>
-            
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Management Reporting</h3>
-                <p class="service-item__description">Customized management reports and financial analysis to help you understand your business performance and make informed decisions.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section section--alt" id="advisory">
-    <div class="container">
-        <h2 class="section__title">Business Advisory</h2>
-        <p class="section__subtitle mb-xl">Strategic business consulting and advisory services to help your business grow and prosper.</p>
-        
-        <div class="grid grid--2">
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Strategic Business Planning</h3>
-                <p class="service-item__description">Comprehensive business planning services including financial forecasting, budgeting, and strategic planning to achieve your business goals.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
-            </div>
-            
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Cash Flow Management</h3>
-                <p class="service-item__description">Cash flow analysis and management strategies to optimize working capital and ensure adequate liquidity for business operations.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
-            </div>
-            
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Business Valuations</h3>
-                <p class="service-item__description">Professional business valuation services for mergers, acquisitions, estate planning, partnership disputes, and other business purposes.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
-            </div>
-            
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Succession Planning</h3>
-                <p class="service-item__description">Comprehensive succession planning services to ensure smooth transition of business ownership and maximize value for all stakeholders.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section" id="audit">
-    <div class="container">
-        <h2 class="section__title">Audit & Assurance</h2>
-        <p class="section__subtitle mb-xl">Independent audit and assurance services to provide confidence in your financial information.</p>
-        
-        <div class="grid grid--2">
-            <div class="service-item fade-in">
-                <h3 class="service-item__title">Financial Statement Audits</h3>
-                <p class="service-item__description">Independent audits of financial statements in accordance with Canadian Auditing Standards. Providing assurance to stakeholders and meeting regulatory requirements.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Audit Services</h3>
+                <p class="service-item__description">Independent audits under Canadian Auditing Standards for private companies, NPOs, and partnerships/proprietorships.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
             
             <div class="service-item fade-in">
                 <h3 class="service-item__title">Review Engagements</h3>
-                <p class="service-item__description">Review engagements providing limited assurance on financial statements. A cost-effective alternative to audits for many organizations.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <p class="service-item__description">Limited assurance engagements—an efficient alternative to audits while meeting stakeholder and compliance needs.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
             
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Not-for-Profit Audits</h3>
-                <p class="service-item__description">Specialized audit services for not-for-profit organizations, including compliance with regulatory requirements and donor restrictions.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Compilation (Notice to Reader)</h3>
+                <p class="service-item__description">Cost-effective financial information prepared to support tax filings, internal monitoring, and year-end processes.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
-            
+
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Internal Control Assessments</h3>
-                <p class="service-item__description">Evaluation of internal controls and risk management systems to identify weaknesses and recommend improvements to protect your organization.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Lender & CRA Reporting</h3>
+                <p class="service-item__description">Purpose-built reporting packages and covenant support for financing needs and CRA compliance requirements.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Shareholder/Manager Monitoring</h3>
+                <p class="service-item__description">Periodic reporting and KPI dashboards to support governance, oversight, and timely decision-making.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
         </div>
     </div>
 </section>
 
-<section class="section section--alt">
+<section class="section section--alt" id="business-valuation">
     <div class="container">
-        <h2 class="section__title">Specialized Services</h2>
-        <p class="section__subtitle mb-xl">Additional specialized services to meet unique client needs across various industries and situations.</p>
+        <h2 class="section__title">Business Valuation</h2>
+        <p class="section__subtitle mb-xl">Independent valuations and practical insights to quantify value and improve performance.</p>
         
-        <div class="grid grid--3">
+        <div class="grid grid--2">
             <div class="service-item fade-in">
-                <h3 class="service-item__title">International Tax</h3>
-                <p class="service-item__description">Cross-border tax planning and compliance for individuals and businesses with international operations or investments.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Independent Business Valuations</h3>
+                <p class="service-item__description">Valuations for transactions, tax reorganizations, shareholder matters, and estate planning—defensible and well-documented.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
             
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Litigation Support</h3>
-                <p class="service-item__description">Expert witness services and financial analysis support for legal proceedings, disputes, and forensic accounting matters.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Internal Controls & Process Reviews</h3>
+                <p class="service-item__description">Assessments that surface risks and inefficiencies, laying the groundwork for stronger profitability and value creation.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
             
             <div class="service-item fade-in">
-                <h3 class="service-item__title">Due Diligence</h3>
-                <p class="service-item__description">Financial due diligence services for mergers, acquisitions, and investment opportunities to identify risks and opportunities.</p>
-                <a href="contact.php" class="btn btn--secondary">Learn More</a>
+                <h3 class="service-item__title">Profitability & Value Enhancement</h3>
+                <p class="service-item__description">Actionable recommendations to boost margins, strengthen cash flow, and increase enterprise value ahead of a transition.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="mergers-acquisitions">
+    <div class="container">
+        <h2 class="section__title">Mergers & Acquisitions</h2>
+        <p class="section__subtitle mb-xl">End-to-end buy-side and sell-side support—strategy, diligence, and deal execution alongside your legal advisors.</p>
+        
+        <div class="grid grid--2">
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Buy-Side Advisory</h3>
+                <p class="service-item__description">Target screening, valuation, and deal modeling with focused diligence to secure the right acquisition on the right terms.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+            
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Sell-Side Advisory</h3>
+                <p class="service-item__description">Preparation, packaging, and negotiation support to maximize value and reduce execution risk during exit or divestiture.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+            
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Deal Structuring & Tax Planning</h3>
+                <p class="service-item__description">Share vs. asset sales, rollovers, and consideration mix designed to optimize after-tax outcomes and strategic fit.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+            
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Financial Due Diligence</h3>
+                <p class="service-item__description">Quality of earnings, working capital, and risk analysis to validate assumptions and protect value before closing.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
+            </div>
+
+            <div class="service-item fade-in">
+                <h3 class="service-item__title">Closing & Integration Support</h3>
+                <p class="service-item__description">Coordination with legal advisors through closing, plus post-close integration planning for a smooth transition.</p>
+                <!-- <a href="contact.php" class="btn btn--secondary">Learn More</a> -->
             </div>
         </div>
     </div>

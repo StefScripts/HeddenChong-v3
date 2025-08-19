@@ -68,23 +68,23 @@ setPageMeta('Our Team', 'Meet the experienced professionals at Hedden Chong LLP.
             </div>
             
             <div class="team-member fade-in">
-                <img src="images/team/inderpaul-tehara.jpg" alt="Inderpaul Tehara, Senior Accountant" class="team-member__image">
+                <img src="images/team/inderpaul-tehara.jpg" alt="Inderpaul Tehara, Manager at Hedden Chong LLP" class="team-member__image">
                 <h3 class="team-member__name">Inderpaul Tehara</h3>
-                <p class="team-member__title">Senior Accountant, CPA</p>
+                <p class="team-member__title">Manager, CPA at Hedden Chong LLP</p>
                 <a href="our-team/inderpaul-tehara.php" class="team-member__link">View Profile</a>
             </div>
             
             <div class="team-member fade-in">
-                <img src="images/team/ryan-matkovic.jpg" alt="Ryan Matkovic, Audit Manager" class="team-member__image">
+                <img src="images/team/ryan-matkovic.jpg" alt="Ryan Matkovic, Manager" class="team-member__image">
                 <h3 class="team-member__name">Ryan Matkovic</h3>
-                <p class="team-member__title">Audit Manager, CPA, CA</p>
+                <p class="team-member__title">Manager, CPA, at Hedden Chong LLP</p>
                 <a href="our-team/ryan-matkovic.php" class="team-member__link">View Profile</a>
             </div>
             
             <div class="team-member fade-in">
                 <img src="images/team/gurdeep-roycombough.jpg" alt="Gurdeep Roycombough, Tax Specialist" class="team-member__image">
                 <h3 class="team-member__name">Gurdeep Roycombough</h3>
-                <p class="team-member__title">Tax Specialist, CPA</p>
+                <p class="team-member__title">Manager, CPA, at Hedden Chong LLP</p>
                 <a href="our-team/gurdeep-roycombough.php" class="team-member__link">View Profile</a>
             </div>
             

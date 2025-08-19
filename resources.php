@@ -14,7 +14,7 @@ setPageMeta('Resources', 'Access valuable financial resources, tax information, 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Financial Resources & Tools</h2>
-            <p class="section__subtitle">Stay informed with our comprehensive collection of resources designed to help you make informed financial decisions and stay current with regulatory changes.</p>
+            <p class="section__subtitle-h2">Stay informed with our comprehensive collection of resources designed to help you make informed financial decisions and stay current with regulatory changes.</p>
         </div>
     </div>
 </section>

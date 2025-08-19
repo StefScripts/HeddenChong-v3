@@ -16,7 +16,7 @@ setPageMeta('Client Portal', 'Access your secure client portal to view documents
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
-                <img src="images/client-portal.jpg" alt="Secure Client Portal Access" style="width: 100%; max-width: 500px; height: auto; border-radius: var(--border-radius); box-shadow: var(--box-shadow-lg);">
+                <img src="images/secBrand_e-Courier.svg" alt="Secure Client Portal Access" style="width: 100%; max-width: 500px; height: auto; border-radius: var(--border-radius); box-shadow: var(--box-shadow-lg);">
             </div>
             <div class="fade-in">
                 <h2>Secure & Convenient Access</h2>
