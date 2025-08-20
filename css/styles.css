@@ -431,6 +431,10 @@ main > .section:first-child {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+.grid--partners {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* ==========================================================================
    COMPONENTS
    ========================================================================== */
@@ -881,7 +885,8 @@ main > .section:first-child {
 
   .grid--2,
   .grid--3,
-  .grid--4 {
+  .grid--4,
+  .grid--partners {
     grid-template-columns: 1fr;
   }
 
@@ -923,6 +928,7 @@ main > .section:first-child {
     text-align: center;
   } */
 }
+
 /* 481-1024px (Tablet breakpoint extended) */
 @media (min-width: 481px) and (max-width: 1024px) {
   .hero__title {
@@ -931,6 +937,10 @@ main > .section:first-child {
 
   .grid--3,
   .grid--4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--partners {
     grid-template-columns: repeat(2, 1fr);
   }
 

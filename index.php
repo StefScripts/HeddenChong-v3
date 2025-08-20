@@ -84,33 +84,47 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
             <p class="section__subtitle-h2">Our experienced professionals are dedicated to providing exceptional service and building lasting relationships with our clients. Get to know the team that will be working with you.</p>
         </div>
         
-        <div class="grid grid--4">
+        <div class="grid grid--partners">
             <div class="team-member fade-in">
-                <img src="images/team/andrew-young.jpg" alt="Andrew Young, Partner" class="team-member__image">
+                <img src="/images/team/andrew-young.jpg" alt="Andrew Young, Managing Partner" class="team-member__image">
                 <h3 class="team-member__name">Andrew Young</h3>
                 <p class="team-member__title">Managing Partner</p>
-                <a href="our-team/andrew-young.php" class="team-member__link">View Profile</a>
+                <a href="/our-team/andrew-young.php" class="team-member__link">View Profile</a>
             </div>
             
             <div class="team-member fade-in">
-                <img src="images/team/foo-chan.jpg" alt="Foo Chan, Senior Manager" class="team-member__image">
+                <img src="/images/team/foo-chan.jpg" alt="Foo Chan, Senior Manager" class="team-member__image">
                 <h3 class="team-member__name">Foo Chan</h3>
-                <p class="team-member__title">Senior Manager</p>
-                <a href="our-team/foo-chan.php" class="team-member__link">View Profile</a>
+                <p class="team-member__title">Senior Manager, CPA, CA</p>
+                <a href="/our-team/foo-chan.php" class="team-member__link">View Profile</a>
             </div>
             
             <div class="team-member fade-in">
-                <img src="images/team/nicole-moore.jpg" alt="Nicole Moore, Tax Manager" class="team-member__image">
+                <img src="/images/team/ivano-cristante.jpg" alt="Ivano Cristante, Senior Partner" class="team-member__image">
+                <h3 class="team-member__name">Ivano Cristante</h3>
+                <p class="team-member__title">Senior Partner</p>
+                <a href="/our-team/ivano-cristante.php" class="team-member__link">View Profile</a>
+            </div>
+            
+            <div class="team-member fade-in">
+                <img src="/images/team/nicole-moore.jpg" alt="Nicole Moore, Tax Manager" class="team-member__image">
                 <h3 class="team-member__name">Nicole Moore</h3>
                 <p class="team-member__title">Tax Manager</p>
-                <a href="our-team/nicole-moore.php" class="team-member__link">View Profile</a>
+                <a href="/our-team/nicole-moore.php" class="team-member__link">View Profile</a>
             </div>
             
             <div class="team-member fade-in">
-                <img src="images/team/james-bushell.jpg" alt="James Bushell, Senior Accountant" class="team-member__image">
-                <h3 class="team-member__name">James Bushell</h3>
-                <p class="team-member__title">Senior Accountant</p>
-                <a href="our-team/james-bushell.php" class="team-member__link">View Profile</a>
+                <img src="/images/team/ken-pawluk.jpg" alt="Ken Pawluk, Tax Specialist" class="team-member__image">
+                <h3 class="team-member__name">Ken Pawluk</h3>
+                <p class="team-member__title">Tax Specialist</p>
+                <a href="/our-team/ken-pawluk.php" class="team-member__link">View Profile</a>
+            </div>
+            
+            <div class="team-member fade-in">
+                <img src="/images/team/tom-rogic.jpg" alt="Tom Rogic, Business Advisor" class="team-member__image">
+                <h3 class="team-member__name">Tom Rogic</h3>
+                <p class="team-member__title">Business Advisor</p>
+                <a href="/our-team/tom-rogic.php" class="team-member__link">View Profile</a>
             </div>
         </div>
         
