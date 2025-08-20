@@ -18,7 +18,7 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Excellence in Financial Services</h2>
-            <p class="section__subtitle">For over 60 years, Hedden Chong LLP has been providing trusted accounting and tax services to individuals, businesses, and organizations throughout British Columbia. Our commitment to excellence and personalized service sets us apart in the industry.</p>
+            <p class="section__subtitle-h2">For over 60 years, Hedden Chong LLP has been providing trusted accounting and tax services to individuals, businesses, and organizations throughout British Columbia. Our commitment to excellence and personalized service sets us apart in the industry.</p>
         </div>
         
         <div class="grid grid--3">
@@ -42,7 +42,7 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Our Services</h2>
-            <p class="section__subtitle">We offer a comprehensive range of accounting, tax, and business advisory services designed to meet your financial needs at every stage of your journey.</p>
+            <p class="section__subtitle-h2">We offer a comprehensive range of accounting, tax, and business advisory services designed to meet your financial needs at every stage of your journey.</p>
         </div>
         
         <div class="grid grid--2">
@@ -81,7 +81,7 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Meet Our Team</h2>
-            <p class="section__subtitle">Our experienced professionals are dedicated to providing exceptional service and building lasting relationships with our clients. Get to know the team that will be working with you.</p>
+            <p class="section__subtitle-h2">Our experienced professionals are dedicated to providing exceptional service and building lasting relationships with our clients. Get to know the team that will be working with you.</p>
         </div>
         
         <div class="grid grid--4">
@@ -124,7 +124,7 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Client Testimonials</h2>
-            <p class="section__subtitle">Discover why businesses and individuals trust Hedden Chong LLP for their accounting and financial needs.</p>
+            <p class="section__subtitle-h2">Discover why businesses and individuals trust Hedden Chong LLP for their accounting and financial needs.</p>
         </div>
         
         <div class="grid grid--3">

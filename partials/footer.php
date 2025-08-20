@@ -11,18 +11,19 @@
                     <h3 class="footer__heading">Contact Information</h3>
                     <address class="footer__address">
                         <p><strong>Hedden Chong LLP</strong></p>
-                        <p>123 Professional Drive<br>
-                        Vancouver, BC V6B 1A1<br>
+                        <p>#104-3989 Henning Drive<br>
+                        Burnaby, BC V5C 6P8<br>
                         Canada</p>
                         <p>
-                            <strong>Phone:</strong> <a href="tel:+16045550123">(604) 555-0123</a><br>
-                            <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a>
+                            <strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5850</a><br>
+                            <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.com</a><br>
+                            <strong>Fax:</strong> (604) 291-1601
                         </p>
                     </address>
                 </div>
                 
                 <div class="footer__section footer__section--cpa">
-                    <img src="/images/CPA-BC-300x127.jpg" alt="CPA British Columbia Member" class="footer__cpa-logo">
+                    <img src="/images/CPABC_LOGO_SGV.svg" alt="CPA British Columbia Member" class="footer__cpa-logo">
                 </div>
             </div>
             
@@ -39,9 +40,6 @@
                     </li>
                     <li class="footer__nav-item">
                         <a href="/resources.php" class="footer__nav-link">Resources</a>
-                    </li>
-                    <li class="footer__nav-item">
-                        <a href="/dates.php" class="footer__nav-link">Important Dates</a>
                     </li>
                     <li class="footer__nav-item">
                         <a href="/client-portal.php" class="footer__nav-link">Client Portal</a>
