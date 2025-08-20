@@ -90,9 +90,9 @@ if ($current_page === '' || $current_page === 'index') {
                         <li class="nav__item">
                             <a href="resources.php" class="nav__link <?php echo $current_page === 'resources' ? 'nav__link--active' : ''; ?>">Resources</a>
                         </li>
-                        <li class="nav__item">
+                        <!-- <li class="nav__item">
                             <a href="dates.php" class="nav__link <?php echo $current_page === 'dates' ? 'nav__link--active' : ''; ?>">Important Dates</a>
-                        </li>
+                        </li> -->
                         <li class="nav__item">
                             <a href="client-portal.php" class="nav__link <?php echo $current_page === 'client-portal' ? 'nav__link--active' : ''; ?>">Client Portal</a>
                         </li>
