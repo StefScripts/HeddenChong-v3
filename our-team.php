@@ -19,47 +19,53 @@ setPageMeta('Our Team', 'Meet the experienced professionals at Hedden Chong LLP.
         
         <div class="grid grid--3">
 
-            <div class="team-member fade-in">
-                <img src="images/team/foo-chan.jpg" alt="Foo Chan, Partner at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Foo Chan</h3>
-                <p class="team-member__title">Partner, CPA, CA</p>
-                <a href="our-team/foo-chan.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/foo-chan.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/foo-chan.jpg" alt="Foo Chan, Partner at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Foo Chan</h3>
+                    <p class="team-member__title">Partner, CPA, CA</p>
+                </div>
+            </a>
 
-            <div class="team-member fade-in">
-                <img src="images/team/ivano-cristante.jpg" alt="Ivano Cristante, Partner at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Ivano Cristante</h3>
-                <p class="team-member__title">Partner, CPA, CA</p>
-                <a href="our-team/ivano-cristante.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/ivano-cristante.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/ivano-cristante.jpg" alt="Ivano Cristante, Partner at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Ivano Cristante</h3>
+                    <p class="team-member__title">Partner, CPA, CA</p>
+                </div>
+            </a>
 
-            <div class="team-member fade-in">
-                <img src="images/team/nicole-moore.jpg" alt="Nicole Moore, Partner at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Nicole Moore</h3>
-                <p class="team-member__title">Partner, CPA, CA</p>
-                <a href="our-team/nicole-moore.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/nicole-moore.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/nicole-moore.jpg" alt="Nicole Moore, Partner at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Nicole Moore</h3>
+                    <p class="team-member__title">Partner, CPA, CA</p>
+                </div>
+            </a>
 
-            <div class="team-member fade-in">
-                <img src="images/team/ken-pawluk.jpg" alt="Ken Pawluk, Partner at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Ken Pawluk</h3>
-                <p class="team-member__title">Partner, CPA, CA</p>
-                <a href="our-team/ken-pawluk.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/ken-pawluk.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/ken-pawluk.jpg" alt="Ken Pawluk, Partner at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Ken Pawluk</h3>
+                    <p class="team-member__title">Partner, CPA, CA</p>
+                </div>
+            </a>
 
-            <div class="team-member fade-in">
-                <img src="images/team/tom-rogic.jpg" alt="Tom Rogic, Partner at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Tom Rogic</h3>
-                <p class="team-member__title">Partner, CPA</p>
-                <a href="our-team/tom-rogic.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/tom-rogic.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/tom-rogic.jpg" alt="Tom Rogic, Partner at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Tom Rogic</h3>
+                    <p class="team-member__title">Partner, CPA</p>
+                </div>
+            </a>
 
-            <div class="team-member fade-in">
-                <img src="images/team/andrew-young.jpg" alt="Andrew Young, Partner at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Andrew Young</h3>
-                <p class="team-member__title">Partner, CPA, CA</p>
-                <a href="our-team/andrew-young.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/andrew-young.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/andrew-young.jpg" alt="Andrew Young, Partner at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Andrew Young</h3>
+                    <p class="team-member__title">Partner, CPA, CA</p>
+                </div>
+            </a>
             
             <!-- <div class="team-member fade-in">
                 <img src="images/team/james-bushell.jpg" alt="James Bushell, Senior Accountant" class="team-member__image">
@@ -68,54 +74,61 @@ setPageMeta('Our Team', 'Meet the experienced professionals at Hedden Chong LLP.
                 <a href="our-team/james-bushell.php" class="team-member__link">View Profile</a>
             </div> -->
                       
-            <div class="team-member fade-in">
-                <img src="images/team/inderpaul-tehara.jpg" alt="Inderpaul Tehara, Manager at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Inderpaul Tehara</h3>
-                <p class="team-member__title">Manager, CPA</p>
-                <a href="our-team/inderpaul-tehara.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/inderpaul-tehara.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/inderpaul-tehara.jpg" alt="Inderpaul Tehara, Manager at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Inderpaul Tehara</h3>
+                    <p class="team-member__title">Manager, CPA</p>
+                </div>
+            </a>
             
-            <div class="team-member fade-in">
-                <img src="images/team/ryan-matkovic.jpg" alt="Ryan Matkovic, Manager at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Ryan Matkovic</h3>
-                <p class="team-member__title">Manager, CPA</p>
-                <a href="our-team/ryan-matkovic.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/ryan-matkovic.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/ryan-matkovic.jpg" alt="Ryan Matkovic, Manager at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Ryan Matkovic</h3>
+                    <p class="team-member__title">Manager, CPA</p>
+                </div>
+            </a>
             
-            <div class="team-member fade-in">
-                <img src="images/team/gurdeep-roycombough.jpg" alt="Gurdeep Roycombough, Manager at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Gurdeep Roycombough</h3>
-                <p class="team-member__title">Manager, CPA</p>
-                <a href="our-team/gurdeep-roycombough.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/gurdeep-roycombough.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/gurdeep-roycombough.jpg" alt="Gurdeep Roycombough, Manager at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Gurdeep Roycombough</h3>
+                    <p class="team-member__title">Manager, CPA</p>
+                </div>
+            </a>
             
-            <div class="team-member fade-in">
-                <img src="images/team/marco-mobilio.jpg" alt="Marco Mobilio, Manager at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Marco Mobilio</h3>
-                <p class="team-member__title">Manager, CPA</p>
-                <a href="our-team/marco-mobilio.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/marco-mobilio.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/marco-mobilio.jpg" alt="Marco Mobilio, Manager at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Marco Mobilio</h3>
+                    <p class="team-member__title">Manager, CPA</p>
+                </div>
+            </a>
             
-            <div class="team-member fade-in">
-                <img src="images/team/tim-wong.jpg" alt="Tim Wong, Manager at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Tim Wong</h3>
-                <p class="team-member__title">Manager, CPA</p>
-                <a href="our-team/tim-wong.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/tim-wong.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/tim-wong.jpg" alt="Tim Wong, Manager at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Tim Wong</h3>
+                    <p class="team-member__title">Manager, CPA</p>
+                </div>
+            </a>
             
-            <div class="team-member fade-in">
-                <img src="images/team/lisa-fong.jpg" alt="Lisa Fong, Manager at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Lisa Fong</h3>
-                <p class="team-member__title">Manager, CPA</p>
-                <a href="our-team/lisa-fong.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/lisa-fong.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/lisa-fong.jpg" alt="Lisa Fong, Manager at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Lisa Fong</h3>
+                    <p class="team-member__title">Manager, CPA</p>
+                </div>
+            </a>
             
-            <div class="team-member fade-in">
-                <img src="images/team/kalen-chang.jpg" alt="Kalen Chang, Manager at Hedden Chong LLP" class="team-member__image">
-                <h3 class="team-member__name">Kalen Chang</h3>
-                <p class="team-member__title">Manager, CPA</p>
-                <a href="our-team/kalen-chang.php" class="team-member__link">View Profile</a>
-            </div>
+            <a href="/our-team/kalen-chang.php" class="team-member-link">
+                <div class="team-member fade-in">
+                    <img src="/images/team/kalen-chang.jpg" alt="Kalen Chang, Manager at Hedden Chong LLP" class="team-member__image">
+                    <h3 class="team-member__name">Kalen Chang</h3>
+                    <p class="team-member__title">Manager, CPA</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>

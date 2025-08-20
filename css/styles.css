@@ -534,6 +534,21 @@ main > .section:first-child {
   box-shadow: var(--box-shadow-lg);
 }
 
+.team-member-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.team-member-link:hover {
+  text-decoration: none;
+}
+
+.team-member-link:hover .team-member {
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow-lg);
+}
+
 .team-member__image {
   width: 150px;
   height: 150px;
