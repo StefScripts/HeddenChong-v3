@@ -362,12 +362,26 @@ button {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+.hero__actions {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
 /* ==========================================================================
    SECTIONS & LAYOUT
    ========================================================================== */
 
 .section {
   padding: var(--spacing-xxxl) 0;
+}
+
+.section--compact {
+  padding: var(--spacing-xl) 0;
+}
+
+main > .section:first-child {
+  margin-top: var(--header-height);
 }
 
 .section--alt {
@@ -881,8 +895,8 @@ button {
   }
 }
 
-/* 481-768px */
-@media (min-width: 481px) and (max-width: 768px) {
+/* 481-1024px (Tablet breakpoint extended) */
+@media (min-width: 481px) and (max-width: 1024px) {
   .hero__title {
     font-size: 2.5rem;
   }
@@ -907,6 +921,7 @@ button {
     gap: 0;
     padding: var(--spacing-md);
     box-shadow: var(--box-shadow-md);
+    border-top: 1px solid #e5e7eb;
   }
 
   .nav__menu--open {
@@ -914,15 +929,24 @@ button {
   }
 
   .nav__link {
-    padding: var(--spacing-sm) 0;
+    padding: var(--spacing-md) 0;
     border-bottom: 1px solid #e5e7eb;
+    font-size: 1.125rem;
+  }
+
+  .nav__link:last-child {
+    border-bottom: none;
   }
 }
 
-/* 769-1279px */
-@media (min-width: 769px) and (max-width: 1279px) {
+/* 1025-1279px (Large tablet/laptop) */
+@media (min-width: 1025px) and (max-width: 1279px) {
   .container {
     padding: 0 var(--spacing-lg);
+  }
+
+  .nav__menu {
+    gap: var(--spacing-md);
   }
 }
 

@@ -25,7 +25,7 @@ if ($current_page === '' || $current_page === 'index') {
     <meta property="og:site_name" content="Hedden Chong LLP">
     
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     
     <?php if ($current_page === 'home'): ?>
     <!-- JSON-LD Organization Schema -->
@@ -63,7 +63,7 @@ if ($current_page === '' || $current_page === 'index') {
         <div class="container">
             <div class="header__content">
                 <div class="header__brand">
-                    <img src="images/logo-hedden-chong.jpg" alt="Hedden Chong LLP Logo" class="header__logo">
+                    <img src="/images/logo-hedden-chong.jpg" alt="Hedden Chong LLP Logo" class="header__logo">
                     <div class="header__text">
                         <h1 class="header__title">Hedden Chong LLP</h1>
                         <p class="header__tagline">since 1961</p>
@@ -79,25 +79,25 @@ if ($current_page === '' || $current_page === 'index') {
                     
                     <ul class="nav__menu" id="nav-menu">
                         <li class="nav__item">
-                            <a href="index.php" class="nav__link <?php echo $current_page === 'home' ? 'nav__link--active' : ''; ?>">Home</a>
+                            <a href="/index.php" class="nav__link <?php echo $current_page === 'home' ? 'nav__link--active' : ''; ?>">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="our-team.php" class="nav__link <?php echo $current_page === 'our-team' ? 'nav__link--active' : ''; ?>">Our Team</a>
+                            <a href="/our-team.php" class="nav__link <?php echo $current_page === 'our-team' ? 'nav__link--active' : ''; ?>">Our Team</a>
                         </li>
                         <li class="nav__item">
-                            <a href="services.php" class="nav__link <?php echo $current_page === 'services' ? 'nav__link--active' : ''; ?>">Services</a>
+                            <a href="/services.php" class="nav__link <?php echo $current_page === 'services' ? 'nav__link--active' : ''; ?>">Services</a>
                         </li>
                         <li class="nav__item">
-                            <a href="resources.php" class="nav__link <?php echo $current_page === 'resources' ? 'nav__link--active' : ''; ?>">Resources</a>
+                            <a href="/resources.php" class="nav__link <?php echo $current_page === 'resources' ? 'nav__link--active' : ''; ?>">Resources</a>
                         </li>
                         <!-- <li class="nav__item">
                             <a href="dates.php" class="nav__link <?php echo $current_page === 'dates' ? 'nav__link--active' : ''; ?>">Important Dates</a>
                         </li> -->
                         <li class="nav__item">
-                            <a href="client-portal.php" class="nav__link <?php echo $current_page === 'client-portal' ? 'nav__link--active' : ''; ?>">Client Portal</a>
+                            <a href="/client-portal.php" class="nav__link <?php echo $current_page === 'client-portal' ? 'nav__link--active' : ''; ?>">Client Portal</a>
                         </li>
                         <li class="nav__item">
-                            <a href="contact.php" class="nav__link <?php echo $current_page === 'contact' ? 'nav__link--active' : ''; ?>">Contact</a>
+                            <a href="/contact.php" class="nav__link <?php echo $current_page === 'contact' ? 'nav__link--active' : ''; ?>">Contact</a>
                         </li>
                     </ul>
                 </nav>

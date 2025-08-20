@@ -4,7 +4,7 @@
         <div class="container">
             <div class="footer__content">
                 <div class="footer__section footer__section--logo">
-                    <img src="images/logo-hedden-chong.jpg" alt="Hedden Chong LLP Logo" class="footer__logo">
+                    <img src="/images/logo-hedden-chong.jpg" alt="Hedden Chong LLP Logo" class="footer__logo">
                 </div>
                 
                 <div class="footer__section footer__section--contact">
@@ -22,32 +22,32 @@
                 </div>
                 
                 <div class="footer__section footer__section--cpa">
-                    <img src="images/CPA-BC-300x127.jpg" alt="CPA British Columbia Member" class="footer__cpa-logo">
+                    <img src="/images/CPA-BC-300x127.jpg" alt="CPA British Columbia Member" class="footer__cpa-logo">
                 </div>
             </div>
             
             <nav class="footer__nav" role="navigation" aria-label="Footer navigation">
                 <ul class="footer__nav-list">
                     <li class="footer__nav-item">
-                        <a href="index.php" class="footer__nav-link">Home</a>
+                        <a href="/index.php" class="footer__nav-link">Home</a>
                     </li>
                     <li class="footer__nav-item">
-                        <a href="our-team.php" class="footer__nav-link">Our Team</a>
+                        <a href="/our-team.php" class="footer__nav-link">Our Team</a>
                     </li>
                     <li class="footer__nav-item">
-                        <a href="services.php" class="footer__nav-link">Services</a>
+                        <a href="/services.php" class="footer__nav-link">Services</a>
                     </li>
                     <li class="footer__nav-item">
-                        <a href="resources.php" class="footer__nav-link">Resources</a>
+                        <a href="/resources.php" class="footer__nav-link">Resources</a>
                     </li>
                     <li class="footer__nav-item">
-                        <a href="dates.php" class="footer__nav-link">Important Dates</a>
+                        <a href="/dates.php" class="footer__nav-link">Important Dates</a>
                     </li>
                     <li class="footer__nav-item">
-                        <a href="client-portal.php" class="footer__nav-link">Client Portal</a>
+                        <a href="/client-portal.php" class="footer__nav-link">Client Portal</a>
                     </li>
                     <li class="footer__nav-item">
-                        <a href="contact.php" class="footer__nav-link">Contact</a>
+                        <a href="/contact.php" class="footer__nav-link">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -58,6 +58,6 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

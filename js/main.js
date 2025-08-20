@@ -92,7 +92,7 @@
 
     // Close menu on window resize if screen becomes larger
     window.addEventListener('resize', function() {
-      if (window.innerWidth > 768 && isMenuOpen) {
+      if (window.innerWidth > 1024 && isMenuOpen) {
         closeMenu();
       }
     });

@@ -3,42 +3,52 @@ include 'partials/header.php';
 setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting and tax services. Get in touch with our experienced team for a consultation.');
 ?>
 
-<section class="section">
+<section class="section section--compact">
     <div class="container">
-        <div class="section__header">
-            <h1 class="section__title">Contact Us</h1>
-            <p class="section__subtitle">Get in touch with our experienced team for professional accounting and tax services</p>
+        <div class="grid grid--2">
+            <div>
+                <h1 class="section__title mb-md">Contact Us</h1>
+                <p class="section__subtitle mb-lg">Ready to experience professional accounting excellence? Get in touch with our experienced team today.</p>
+                <div class="hero__actions">
+                    <a href="tel:+16045550123" class="btn btn--primary btn--large">(604) 555-0123</a>
+                    <a href="#contact-form" class="btn btn--secondary">Send Message</a>
+                </div>
+            </div>
+            <div>
+                <div style="background-color: var(--color-alt); padding: var(--spacing-lg); border-radius: var(--border-radius);">
+                    <h3 class="mt-0">Quick Contact</h3>
+                    <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 555-0123</a><br>
+                    <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a></p>
+                    <p><strong>Office Hours:</strong><br>
+                    Monday - Friday: 8:30 AM - 5:30 PM</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="section section--alt">
+<section class="section section--alt" id="contact-form">
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
-                <h2>Get in Touch</h2>
-                <p>Ready to experience the professional excellence that has made Hedden Chong LLP a trusted name in accounting for over 60 years? Contact us today to discuss your financial needs.</p>
+                <h2>Office Information</h2>
+                <address style="font-style: normal;">
+                    <p><strong>Hedden Chong LLP</strong><br>
+                    123 Professional Drive<br>
+                    Vancouver, BC V6B 1A1<br>
+                    Canada</p>
+                    
+                    <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 555-0123</a><br>
+                    <strong>Fax:</strong> (604) 555-0124<br>
+                    <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a></p>
+                </address>
                 
-                <div class="mt-xl">
-                    <h3>Office Information</h3>
-                    <address style="font-style: normal;">
-                        <p><strong>Hedden Chong LLP</strong><br>
-                        123 Professional Drive<br>
-                        Vancouver, BC V6B 1A1<br>
-                        Canada</p>
-                        
-                        <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 555-0123</a><br>
-                        <strong>Fax:</strong> (604) 555-0124<br>
-                        <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a></p>
-                    </address>
-                    
-                    <h3>Office Hours</h3>
-                    <p><strong>Monday - Friday:</strong> 8:30 AM - 5:30 PM<br>
-                    <strong>Saturday:</strong> By appointment only<br>
-                    <strong>Sunday:</strong> Closed</p>
-                    
-                    <p class="text-muted"><em>Extended hours available during tax season (January - April)</em></p>
-                </div>
+                <h3>Office Hours</h3>
+                <p><strong>Monday - Friday:</strong> 8:30 AM - 5:30 PM<br>
+                <strong>Saturday:</strong> By appointment only<br>
+                <strong>Sunday:</strong> Closed</p>
+                
+                <p class="text-muted"><em>Extended hours available during tax season (January - April)</em></p>
             </div>
             
             <div class="fade-in">

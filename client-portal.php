@@ -3,41 +3,53 @@ include 'partials/header.php';
 setPageMeta('Client Portal', 'Access your secure client portal to view documents, communicate with your accountant, and manage your account with Hedden Chong LLP.');
 ?>
 
-<section class="section">
+<section class="section section--compact">
     <div class="container">
-        <div class="section__header">
-            <h1 class="section__title">Client Portal</h1>
-            <p class="section__subtitle">Secure access to your financial documents and account information</p>
+        <div class="grid grid--2">
+            <div>
+                <h1 class="section__title mb-md">Client Portal</h1>
+                <p class="section__subtitle mb-lg">Secure 24/7 access to your financial documents, tax returns, and direct communication with your accounting team.</p>
+                <div class="hero__actions">
+                    <a href="#" class="btn btn--primary btn--large">Enter Portal</a>
+                    <a href="#setup" class="btn btn--secondary">First Time Setup</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <img src="/images/secBrand_e-Courier.svg" alt="Secure Client Portal Access" style="width: 100%; max-width: 300px; height: auto;">
+            </div>
         </div>
     </div>
 </section>
 
-<section class="section section--alt">
+<section class="section">
     <div class="container">
-        <div class="grid grid--2">
+        <h2 class="section__title">Portal Features</h2>
+        <p class="section__subtitle mb-xl">Our client portal provides secure, convenient access to your important financial documents and direct communication with your accounting team.</p>
+        
+        <div class="grid grid--3">
             <div class="fade-in">
-                <img src="images/secBrand_e-Courier.svg" alt="Secure Client Portal Access" style="width: 100%; max-width: 500px; height: auto; border-radius: var(--border-radius); box-shadow: var(--box-shadow-lg);">
+                <h3>Document Access</h3>
+                <ul>
+                    <li>Tax returns and financial statements</li>
+                    <li>Secure document storage and sharing</li>
+                    <li>Document upload for tax preparation</li>
+                </ul>
             </div>
             <div class="fade-in">
-                <h2>Secure & Convenient Access</h2>
-                <p>Our client portal provides a secure, convenient way to access your important financial documents, communicate with your accounting team, and stay up-to-date with your account status.</p>
-                
-                <h3>Portal Features</h3>
+                <h3>Communication</h3>
                 <ul>
-                    <li>Secure document storage and sharing</li>
-                    <li>Tax return and financial statement access</li>
                     <li>Direct messaging with your accountant</li>
                     <li>Appointment scheduling system</li>
-                    <li>Payment history and outstanding balances</li>
                     <li>Important deadline notifications</li>
-                    <li>Document upload for tax preparation</li>
-                    <li>Mobile-friendly responsive design</li>
                 </ul>
-                
-                <div class="mt-xl">
-                    <a href="#" class="btn btn--primary btn--large">Enter Client Portal</a>
-                    <a href="#setup" class="btn btn--secondary btn--large">First Time Setup</a>
-                </div>
+            </div>
+            <div class="fade-in">
+                <h3>Account Management</h3>
+                <ul>
+                    <li>Payment history and outstanding balances</li>
+                    <li>Mobile-friendly responsive design</li>
+                    <li>24/7 secure access</li>
+                </ul>
             </div>
         </div>
     </div>
