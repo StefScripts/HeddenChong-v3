@@ -6,8 +6,6 @@ setPageMeta('Ivano Cristante - Senior Partner', 'Ivano Cristante is a Senior Par
 <nav class="breadcrumb">
     <div class="container">
         <ol class="breadcrumb__list">
-            <li class="breadcrumb__item"><a href="../index.php" class="breadcrumb__link">Home</a></li>
-            <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><a href="../our-team.php" class="breadcrumb__link">Our Team</a></li>
             <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><span class="breadcrumb__current">Ivano Cristante</span></li>
@@ -23,31 +21,31 @@ setPageMeta('Ivano Cristante - Senior Partner', 'Ivano Cristante is a Senior Par
             </div>
             <div class="fade-in">
                 <h1>Ivano Cristante</h1>
-                <h2 class="text-muted mb-md">Senior Partner, CPA, CA</h2>
+                <h2 class="text-muted mb-md">Partner, CPA, CA</h2>
                 
-                <p>Ivano Cristante is a Senior Partner at Hedden Chong LLP with over 18 years of experience in public accounting. He specializes in corporate taxation, business advisory services, and strategic financial planning for medium to large enterprises.</p>
+                <p>Ivano brings over three decades of professional excellence to Hedden Chong LLP, having become a Partner in 1998. His distinguished career began with achieving Honour Roll standing on the 1990 UFE, placing in the top 10 in British Columbia—a testament to his exceptional capabilities.</p>
                 
-                <p>Ivano is known for his ability to navigate complex business transactions and provide practical solutions that align with clients' strategic objectives while ensuring compliance with all regulatory requirements.</p>
+                <p>Ivano has extensive experience working with incorporated professionals and owner-managed businesses, with particular emphasis on the construction, consulting, and medical professional sectors. He enjoys assisting clients to streamline their businesses, manage their tax risks, and preserve their capital.</p>
                 
-                <h3>Qualifications</h3>
+                <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
-                    <li>Chartered Accountant (CA)</li>
-                    <li>Bachelor of Commerce, University of Victoria</li>
-                    <li>Masters in Taxation</li>
+                    <li>Chartered Accountant (CA) - 1992</li>
+                    <li>Bachelor of Commerce, University of British Columbia</li>
+                    <li>UFE Honour Roll - Top 10 in BC (1990)</li>
                 </ul>
                 
                 <h3>Areas of Expertise</h3>
                 <ul>
-                    <li>Corporate tax planning and compliance</li>
-                    <li>Mergers and acquisitions</li>
-                    <li>Business restructuring</li>
-                    <li>Cross-border taxation</li>
-                    <li>Financial due diligence</li>
-                    <li>Strategic business planning</li>
+                    <li>Incorporated professionals</li>
+                    <li>Owner-managed businesses</li>
+                    <li>Construction sector</li>
+                    <li>Consulting services</li>
+                    <li>Medical professionals</li>
+                    <li>Tax risk management and capital preservation</li>
                 </ul>
                 
-                <p>Ivano regularly speaks at professional conferences and contributes to industry publications on taxation and business advisory topics. He maintains active memberships in several professional organizations and serves on the firm's partnership committee.</p>
+                <p>Ivano's commitment to helping clients optimize their business operations and achieve their financial goals has made him a trusted advisor to professionals and business owners throughout his distinguished career at Hedden Chong LLP.</p>
                 
                 <div class="mt-xl">
                     <a href="mailto:ivano.cristante@heddenchong.ca" class="btn btn--primary">Contact Ivano</a>

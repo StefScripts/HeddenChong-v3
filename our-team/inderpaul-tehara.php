@@ -6,8 +6,6 @@ setPageMeta('Inderpaul Tehara - Senior Accountant', 'Inderpaul Tehara is a Senio
 <nav class="breadcrumb">
     <div class="container">
         <ol class="breadcrumb__list">
-            <li class="breadcrumb__item"><a href="../index.php" class="breadcrumb__link">Home</a></li>
-            <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><a href="../our-team.php" class="breadcrumb__link">Our Team</a></li>
             <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><span class="breadcrumb__current">Inderpaul Tehara</span></li>
@@ -23,30 +21,31 @@ setPageMeta('Inderpaul Tehara - Senior Accountant', 'Inderpaul Tehara is a Senio
             </div>
             <div class="fade-in">
                 <h1>Inderpaul Tehara</h1>
-                <h2 class="text-muted mb-md">Senior Accountant, CPA</h2>
+                <h2 class="text-muted mb-md">Manager, CPA</h2>
                 
-                <p>Inderpaul Tehara is a Senior Accountant at Hedden Chong LLP with over 10 years of experience providing comprehensive accounting and tax services to a diverse client base. He specializes in working with small to medium-sized businesses and individual clients.</p>
+                <p>Inderpaul has been a Manager at Hedden Chong LLP since 2021, bringing nine years of comprehensive accounting experience to the team. Colleagues describe him as a reliable and responsible professional capable of getting things done in an efficient manner.</p>
                 
-                <p>Inderpaul is known for his detail-oriented approach and commitment to helping clients understand their financial position while ensuring compliance with all regulatory requirements.</p>
+                <p>Inderpaul is eager to learn and take on new responsibilities and challenges, demonstrating strong leadership qualities while maintaining his focus on helping the business succeed. He is fluent in both English and Punjabi, enabling him to serve a diverse client base.</p>
                 
-                <h3>Qualifications</h3>
+                <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
-                    <li>Bachelor of Commerce, Simon Fraser University</li>
-                    <li>Tax Preparation Certificate</li>
+                    <li>CPA Professional Education Program, CPA Canada (2015-2019)</li>
+                    <li>Diploma in Accounting Program, University of British Columbia (2012-2014)</li>
+                    <li>Bachelor of Business Administration (Finance), Simon Fraser University (2006-2010)</li>
                 </ul>
                 
                 <h3>Areas of Expertise</h3>
                 <ul>
-                    <li>Personal and corporate tax preparation</li>
-                    <li>Financial statement preparation</li>
-                    <li>Bookkeeping and month-end procedures</li>
-                    <li>Small business consulting</li>
-                    <li>Payroll services</li>
-                    <li>GST/PST compliance</li>
+                    <li>Problem solving and analytical thinking</li>
+                    <li>Decision making and leadership</li>
+                    <li>Team collaboration and communication</li>
+                    <li>Operational management and planning</li>
+                    <li>Forecasting and budgeting</li>
+                    <li>Multi-tasking and project management</li>
                 </ul>
                 
-                <p>Inderpaul takes pride in building strong relationships with clients and providing personalized service that meets their specific needs and business objectives.</p>
+                <p>Inderpaul's strong team-oriented approach and commitment to professional excellence make him a valuable asset to both the firm and its clients. His diverse skill set and bilingual capabilities enhance his ability to serve clients effectively.</p>
                 
                 <div class="mt-xl">
                     <a href="mailto:inderpaul.tehara@heddenchong.ca" class="btn btn--primary">Contact Inderpaul</a>

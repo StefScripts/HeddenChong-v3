@@ -6,8 +6,6 @@ setPageMeta('Marco Mobilio - Senior Associate', 'Marco Mobilio is a Senior Assoc
 <nav class="breadcrumb">
     <div class="container">
         <ol class="breadcrumb__list">
-            <li class="breadcrumb__item"><a href="../index.php" class="breadcrumb__link">Home</a></li>
-            <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><a href="../our-team.php" class="breadcrumb__link">Our Team</a></li>
             <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><span class="breadcrumb__current">Marco Mobilio</span></li>
@@ -23,30 +21,29 @@ setPageMeta('Marco Mobilio - Senior Associate', 'Marco Mobilio is a Senior Assoc
             </div>
             <div class="fade-in">
                 <h1>Marco Mobilio</h1>
-                <h2 class="text-muted mb-md">Senior Associate, CPA</h2>
+                <h2 class="text-muted mb-md">Manager, CPA</h2>
                 
-                <p>Marco Mobilio is a Senior Associate at Hedden Chong LLP with 8 years of experience in public accounting. He provides accounting services, tax preparation, and business advisory support to a diverse portfolio of clients.</p>
+                <p>Marco is a devoted and professional Manager at Hedden Chong LLP with over seven years of comprehensive accounting experience across various areas. He brings excellent communication skills and a hardworking mentality that is evident through his commitment to both full-time work and volunteering.</p>
                 
-                <p>Marco is recognized for his strong analytical skills, attention to detail, and commitment to delivering exceptional client service while supporting the firm's quality standards.</p>
+                <p>Marco demonstrates particular strength in problem solving, time management, and the ability to work effectively with coworkers in a business environment. His practical approach to accounting challenges makes him a valuable team member.</p>
                 
-                <h3>Qualifications</h3>
+                <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
-                    <li>Bachelor of Business Administration, Simon Fraser University</li>
-                    <li>Professional Accounting Certificate</li>
+                    <li>Bachelor of Business Administration (Accounting), Capilano University</li>
                 </ul>
                 
                 <h3>Areas of Expertise</h3>
                 <ul>
-                    <li>Financial statement preparation</li>
-                    <li>Tax preparation and compliance</li>
-                    <li>Bookkeeping services</li>
-                    <li>Client relationship management</li>
-                    <li>Business advisory support</li>
-                    <li>Quality assurance procedures</li>
+                    <li>Practical accounting experience across various areas</li>
+                    <li>Problem solving and analytical thinking</li>
+                    <li>Time management and project coordination</li>
+                    <li>Team collaboration and communication</li>
+                    <li>Client service and relationship management</li>
+                    <li>Professional development and continuous learning</li>
                 </ul>
                 
-                <p>Marco is dedicated to professional growth and client satisfaction, regularly participating in training programs and staying current with industry developments to better serve his clients.</p>
+                <p>Marco's combination of technical accounting skills, strong work ethic, and collaborative approach makes him an asset to both the firm and its clients. His commitment to professional excellence is demonstrated through his dedicated approach to every project.</p>
                 
                 <div class="mt-xl">
                     <a href="mailto:marco.mobilio@heddenchong.ca" class="btn btn--primary">Contact Marco</a>

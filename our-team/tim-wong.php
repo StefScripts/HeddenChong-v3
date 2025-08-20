@@ -6,8 +6,6 @@ setPageMeta('Tim Wong - Financial Advisor', 'Tim Wong is a Financial Advisor at 
 <nav class="breadcrumb">
     <div class="container">
         <ol class="breadcrumb__list">
-            <li class="breadcrumb__item"><a href="../index.php" class="breadcrumb__link">Home</a></li>
-            <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><a href="../our-team.php" class="breadcrumb__link">Our Team</a></li>
             <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><span class="breadcrumb__current">Tim Wong</span></li>

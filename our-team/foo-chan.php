@@ -6,8 +6,6 @@ setPageMeta('Foo Chan - Senior Manager', 'Foo Chan is a Senior Manager at Hedden
 <nav class="breadcrumb">
     <div class="container">
         <ol class="breadcrumb__list">
-            <li class="breadcrumb__item"><a href="../index.php" class="breadcrumb__link">Home</a></li>
-            <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><a href="../our-team.php" class="breadcrumb__link">Our Team</a></li>
             <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><span class="breadcrumb__current">Foo Chan</span></li>
@@ -23,31 +21,29 @@ setPageMeta('Foo Chan - Senior Manager', 'Foo Chan is a Senior Manager at Hedden
             </div>
             <div class="fade-in">
                 <h1>Foo Chan</h1>
-                <h2 class="text-muted mb-md">Senior Manager, CPA, CA</h2>
+                <h2 class="text-muted mb-md">Partner, CPA, CA</h2>
                 
-                <p>Foo Chan brings over 15 years of professional experience in audit, assurance, and financial reporting services. As a Senior Manager at Hedden Chong LLP, Foo leads engagement teams on complex audit and review assignments across various industries.</p>
+                <p>Foo brings extensive experience in providing assurance and management advisory services to growing businesses in the community. As a Partner at Hedden Chong LLP since January 2007, he has built a strong reputation for helping businesses navigate complex financial challenges and opportunities.</p>
                 
-                <p>Known for exceptional attention to detail and strong analytical skills, Foo has developed expertise in working with clients ranging from emerging growth companies to established enterprises, helping them navigate complex accounting and reporting requirements.</p>
+                <p>With a wide range of experience gained from working with an international accounting firm before joining Hedden Chong, Foo specializes in serving businesses across diverse sectors including retail, development, hospitality and tourism, construction, and manufacturing.</p>
                 
-                <h3>Qualifications</h3>
+                <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
-                    <li>Chartered Accountant (CA)</li>
-                    <li>Bachelor of Business Administration, Simon Fraser University</li>
-                    <li>Advanced Auditing and Assurance Certificate</li>
+                    <li>Chartered Accountant (CA) - 1987</li>
+                    <li>Bachelor of Commerce, Dalhousie University - 1981</li>
                 </ul>
                 
                 <h3>Areas of Expertise</h3>
                 <ul>
-                    <li>Financial statement audits and reviews</li>
-                    <li>Internal control assessments</li>
-                    <li>IFRS and ASPE financial reporting</li>
-                    <li>Not-for-profit organization audits</li>
-                    <li>Risk assessment and management</li>
-                    <li>Compliance and regulatory reporting</li>
+                    <li>Assurance services for growing businesses</li>
+                    <li>Management advisory services</li>
+                    <li>Retail and hospitality sectors</li>
+                    <li>Construction and manufacturing industries</li>
+                    <li>Development and tourism sectors</li>
                 </ul>
                 
-                <p>Foo is dedicated to professional development and maintains active membership in CPA British Columbia. Outside of work, Foo enjoys volunteering with local community organizations and stays active in professional networking groups.</p>
+                <p>Foo's commitment to supporting business growth and his deep understanding of various industries make him a trusted advisor to clients seeking strategic financial guidance and reliable assurance services.</p>
                 
                 <div class="mt-xl">
                     <a href="mailto:foo.chan@heddenchong.ca" class="btn btn--primary">Contact Foo</a>

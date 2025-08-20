@@ -6,8 +6,6 @@ setPageMeta('Gurdeep Roycombough - Tax Specialist', 'Gurdeep Roycombough is a Ta
 <nav class="breadcrumb">
     <div class="container">
         <ol class="breadcrumb__list">
-            <li class="breadcrumb__item"><a href="../index.php" class="breadcrumb__link">Home</a></li>
-            <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><a href="../our-team.php" class="breadcrumb__link">Our Team</a></li>
             <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><span class="breadcrumb__current">Gurdeep Roycombough</span></li>
@@ -23,30 +21,37 @@ setPageMeta('Gurdeep Roycombough - Tax Specialist', 'Gurdeep Roycombough is a Ta
             </div>
             <div class="fade-in">
                 <h1>Gurdeep Roycombough</h1>
-                <h2 class="text-muted mb-md">Tax Specialist, CPA</h2>
+                <h2 class="text-muted mb-md">Manager, CPA</h2>
                 
-                <p>Gurdeep Roycombough is a Tax Specialist at Hedden Chong LLP with 9 years of experience in tax preparation and planning services. She provides comprehensive tax solutions for individuals, families, and small businesses.</p>
+                <p>Gurdeep has been a Manager at Hedden Chong LLP since 2023, bringing eight years of comprehensive accounting experience to the team. She combines professional expertise with a strong commitment to community involvement, having dedicated over 13 years to volunteer coaching and board service.</p>
                 
-                <p>Gurdeep is appreciated by clients for her thorough approach to tax preparation and her ability to identify opportunities for tax savings while ensuring full compliance with tax regulations.</p>
+                <p>Gurdeep is fluent in both English and Punjabi, enabling her to effectively serve clients from diverse backgrounds. Her dedication to both professional excellence and community service reflects her well-rounded approach to her career and personal values.</p>
                 
-                <h3>Qualifications</h3>
+                <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
-                    <li>Bachelor of Commerce, BCIT</li>
-                    <li>Personal Tax Services Certificate</li>
+                    <li>CPA Professional Education Program, CPA Canada (2017-2019)</li>
+                    <li>Diploma in Accounting Program, UBC Sauder School of Business (2016-2017)</li>
+                    <li>Bachelor of Arts (Political Science), University of British Columbia (2016)</li>
+                </ul>
+                
+                <h3>Community Involvement</h3>
+                <ul>
+                    <li>Volunteer Coach/Board Member, Westside Warriors Minor Football (2010-2023)</li>
+                    <li>Head Coach (spring flag season)</li>
+                    <li>Assistant Coach, Receivers and Defensive Backs (fall tackle season)</li>
                 </ul>
                 
                 <h3>Areas of Expertise</h3>
                 <ul>
-                    <li>Personal tax preparation and planning</li>
-                    <li>Small business taxation</li>
-                    <li>Tax compliance and filing</li>
-                    <li>Tax optimization strategies</li>
-                    <li>Multi-jurisdictional tax issues</li>
-                    <li>Client education and support</li>
+                    <li>Accounting and financial services</li>
+                    <li>Team leadership and coaching</li>
+                    <li>Board governance and administration</li>
+                    <li>Bilingual client service (English and Punjabi)</li>
+                    <li>Community engagement and volunteer coordination</li>
                 </ul>
                 
-                <p>Gurdeep stays current with tax law changes and regularly attends professional development seminars to provide clients with the most up-to-date tax advice and strategies.</p>
+                <p>Gurdeep's extensive volunteer experience in coaching and board leadership, combined with her professional accounting qualifications, demonstrates her commitment to both excellence and community service.</p>
                 
                 <div class="mt-xl">
                     <a href="mailto:gurdeep.roycombough@heddenchong.ca" class="btn btn--primary">Contact Gurdeep</a>
