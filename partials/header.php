@@ -62,6 +62,7 @@ if ($current_page === '' || $current_page === 'index') {
     <header class="header" id="header">
         <div class="container">
             <div class="header__content">
+                <a href="/index.php" style="text-decoration: none;">
                 <div class="header__brand">
                     <img src="/images/logo-hedden-chong.jpg" alt="Hedden Chong LLP Logo" class="header__logo">
                     <div class="header__text">
@@ -69,6 +70,7 @@ if ($current_page === '' || $current_page === 'index') {
                         <p class="header__tagline">since 1961</p>
                     </div>
                 </div>
+                </a>
                 
                 <nav class="nav" role="navigation" aria-label="Main navigation">
                     <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">

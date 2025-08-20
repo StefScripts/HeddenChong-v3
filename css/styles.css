@@ -432,7 +432,13 @@ main > .section:first-child {
 }
 
 .grid--partners {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 840px) {
+  .grid--partners {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* ==========================================================================
@@ -937,10 +943,6 @@ main > .section:first-child {
 
   .grid--3,
   .grid--4 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .grid--partners {
     grid-template-columns: repeat(2, 1fr);
   }
 
