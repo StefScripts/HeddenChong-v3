@@ -18,6 +18,12 @@ setPageMeta('Tom Rogic - Business Advisor', 'Tom Rogic is a Business Advisor at 
         <div class="grid grid--2">
             <div class="fade-in">
                 <img src="../images/team/tom-rogic.jpg" alt="Tom Rogic, Business Advisor" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <div>
+                    <div style="margin-top: var(--spacing-xl); justify-self:center;">
+                        <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
+                        <strong>Email:</strong> <a href="mailto:tom@heddenchong.ca">tom@heddenchong.ca</a></p>
+                    </div>
+                </div>
             </div>
             <div class="fade-in">
                 <h1>Tom Rogic</h1>

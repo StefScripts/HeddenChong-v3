@@ -18,6 +18,12 @@ setPageMeta('Gurdeep Roycombough - Tax Specialist', 'Gurdeep Roycombough is a Ta
         <div class="grid grid--2">
             <div class="fade-in">
                 <img src="../images/team/gurdeep-roycombough.jpg" alt="Gurdeep Roycombough, Tax Specialist" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <div>
+                    <div style="margin-top: var(--spacing-xl); justify-self:center;">
+                        <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
+                        <strong>Email:</strong> <a href="mailto:gurdeep@heddenchong.ca">gurdeep@heddenchong.ca</a></p>
+                    </div>
+                </div>
             </div>
             <div class="fade-in">
                 <h1>Gurdeep Roycombough</h1>

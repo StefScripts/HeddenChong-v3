@@ -18,6 +18,12 @@ setPageMeta('Kalen Chang - Junior Accountant', 'Kalen Chang is a Junior Accounta
         <div class="grid grid--2">
             <div class="fade-in">
                 <img src="../images/team/kalen-chang.jpg" alt="Kalen Chang, Junior Accountant" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <div>
+                    <div style="margin-top: var(--spacing-xl); justify-self:center;">
+                        <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
+                        <strong>Email:</strong> <a href="mailto:kalen@heddenchong.ca">kalen@heddenchong.ca</a></p>
+                    </div>
+                </div>
             </div>
             <div class="fade-in">
                 <h1>Kalen Chang</h1>

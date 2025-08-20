@@ -137,7 +137,7 @@ setPageMeta('Our Team', 'Meet the experienced professionals at Hedden Chong LLP.
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Our Commitment to Excellence</h2>
-            <p class="section__subtitle">Each team member at Hedden Chong LLP is committed to maintaining the highest standards of professional excellence and client service.</p>
+            <p class="section__subtitle-h2">Each team member at Hedden Chong LLP is committed to maintaining the highest standards of professional excellence and client service.</p>
         </div>
         
         <div class="grid grid--3">

@@ -15,8 +15,8 @@
                         Burnaby, BC V5C 6P8<br>
                         Canada</p>
                         <p>
-                            <strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5850</a><br>
-                            <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.com</a><br>
+                            <strong>Phone:</strong> <a href="tel:+16043205850">(604) 320-5850</a><br>
+                            <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a><br>
                             <strong>Fax:</strong> (604) 291-1601
                         </p>
                     </address>
