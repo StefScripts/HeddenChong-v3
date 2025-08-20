@@ -381,6 +381,10 @@ button {
   padding: var(--spacing-xl) 0;
 }
 
+.section--small {
+  padding: var(--spacing-sm) 0;
+}
+
 main > .section:first-child {
   margin-top: var(--header-height);
 }

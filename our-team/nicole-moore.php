@@ -18,6 +18,12 @@ setPageMeta('Nicole Moore - Tax Manager', 'Nicole Moore is a Tax Manager at Hedd
         <div class="grid grid--2">
             <div class="fade-in">
                 <img src="../images/team/nicole-moore.jpg" alt="Nicole Moore, Tax Manager" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <div>
+                    <div style="margin-top: var(--spacing-xl); justify-self:center;">
+                        <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
+                        <strong>Email:</strong> <a href="mailto:nicole@heddenchong.ca">nicole@heddenchong.ca</a></p>
+                    </div>
+                </div>
             </div>
             <div class="fade-in">
                 <h1>Nicole Moore</h1>
