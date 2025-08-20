@@ -385,6 +385,14 @@ main > .section:first-child {
   margin-top: var(--header-height);
 }
 
+main > .breadcrumb {
+  margin-top: var(--header-height);
+}
+
+main > .breadcrumb + .section {
+  margin-top: 0;
+}
+
 .section--alt {
   background-color: var(--color-alt);
 }
@@ -621,7 +629,7 @@ main > .section:first-child {
 
 /* Resource Item */
 .resource-category {
-  margin-bottom: var(--spacing-xxl);
+  margin-bottom: var(--spacing-xl);
 }
 
 .resource-category__title {
@@ -630,6 +638,13 @@ main > .section:first-child {
   padding-bottom: var(--spacing-sm);
   border-bottom: 2px solid var(--color-primary);
   color: var(--color-dark);
+}
+
+.resource-subsection__title {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-primary);
+  font-weight: 600;
 }
 
 .resource-item {
@@ -864,6 +879,11 @@ main > .section:first-child {
 
   .container {
     padding: 0 var(--spacing-sm);
+  }
+
+  .breadcrumb {
+    padding: var(--spacing-sm) 0;
+    margin-bottom: var(--spacing-md);
   }
 
   .hero__title {
