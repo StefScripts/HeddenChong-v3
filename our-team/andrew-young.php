@@ -6,8 +6,8 @@ setPageMeta('Andrew Young - Managing Partner', 'Andrew Young is the Managing Par
 <nav class="breadcrumb">
     <div class="container">
         <ol class="breadcrumb__list">
-            <li class="breadcrumb__item"><a href="../index.php" class="breadcrumb__link">Home</a></li>
-            <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
+            <!-- <li class="breadcrumb__item"><a href="../index.php" class="breadcrumb__link">Home</a></li>
+            <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li> -->
             <li class="breadcrumb__item"><a href="../our-team.php" class="breadcrumb__link">Our Team</a></li>
             <li class="breadcrumb__item"><span class="breadcrumb__separator">›</span></li>
             <li class="breadcrumb__item"><span class="breadcrumb__current">Andrew Young</span></li>
@@ -20,34 +20,39 @@ setPageMeta('Andrew Young - Managing Partner', 'Andrew Young is the Managing Par
         <div class="grid grid--2">
             <div class="fade-in">
                 <img src="../images/team/andrew-young.jpg" alt="Andrew Young, Managing Partner" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <div>
+                    <div style="margin-top: var(--spacing-xl); justify-self:center;">
+                        <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
+                        <strong>Email:</strong> <a href="mailto:andrew@heddenchong.ca">andrew@heddenchong.ca</a></p>
+                    </div>
+                </div>
             </div>
             <div class="fade-in">
                 <h1>Andrew Young</h1>
-                <h2 class="text-muted mb-md">Managing Partner, CPA, CGA</h2>
+                <h2 class="text-muted mb-md">Partner, CPA, CA</h2>
                 
-                <p>Andrew Young serves as Managing Partner at Hedden Chong LLP, where he has been instrumental in guiding the firm's strategic direction and maintaining its reputation for excellence in professional services.</p>
+                <p>Andrew has been a cornerstone of Hedden Chong LLP since becoming a Partner in 1993. With his CA designation obtained in 1990, he brings over three decades of professional expertise to the firm and its clients.</p>
                 
-                <p>With over two decades of experience in public accounting, Andrew specializes in complex tax planning, business restructuring, and strategic financial advisory services for closely-held businesses and high-net-worth individuals.</p>
+                <p>Andrew's client base consists of small to medium-sized owner-managed businesses across a variety of industries, with particular concentration in the hospitality, medical, and dental sectors. His client portfolio also includes Canadian subsidiaries of multinational companies.</p>
                 
-                <h3>Qualifications</h3>
+                <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
-                    <li>Certified General Accountant (CGA)</li>
-                    <li>Bachelor of Commerce, University of British Columbia</li>
-                    <li>Advanced Tax Planning Certificate</li>
+                    <li>Chartered Accountant (CA) - 1990</li>
+                    <li>Partner at Hedden Chong LLP since 1993</li>
                 </ul>
                 
                 <h3>Areas of Expertise</h3>
                 <ul>
-                    <li>Corporate tax planning and compliance</li>
-                    <li>Estate planning and succession planning</li>
-                    <li>Business valuations and restructuring</li>
-                    <li>International tax planning</li>
-                    <li>Financial statement preparation and review</li>
-                    <li>Strategic business advisory services</li>
+                    <li>Small to medium-sized owner-managed businesses</li>
+                    <li>Hospitality sector</li>
+                    <li>Medical and dental professionals</li>
+                    <li>Canadian subsidiaries of multinational companies</li>
+                    <li>Business advisory services</li>
+                    <li>Tax planning and compliance</li>
                 </ul>
                 
-                <p>Andrew is committed to staying current with evolving tax legislation and accounting standards, regularly attending professional development seminars and industry conferences. He is a member of CPA British Columbia and serves on the firm's quality control committee.</p>
+                <p>Andrew's extensive experience and deep understanding of diverse industries make him a trusted advisor for business owners seeking comprehensive accounting and strategic guidance. His long-standing commitment to the firm reflects his dedication to providing exceptional client service.</p>
                 
                 <div class="mt-xl">
                     <a href="mailto:andrew.young@heddenchong.ca" class="btn btn--primary">Contact Andrew</a>

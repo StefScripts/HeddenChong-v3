@@ -10,7 +10,7 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
     </div>
 </section>
 
-<section class="section">
+<section class="section section--compact">
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Quick Navigation</h2>
@@ -37,19 +37,14 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
 </section>
 
 <!-- IMPORTANT DATES SECTION -->
-<section id="important-dates" class="section section--alt">
+<section id="important-dates" class="section section--compact section--alt">
     <div class="container">
-        <div class="section__header">
-            <h2 class="section__title">Important Dates</h2>
-            <p class="section__subtitle">Key deadlines and dates for tax filing and compliance. All dates are subject to change based on government announcements.</p>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <h2 class="section__title">Personal Tax Deadlines</h2>
-        <p class="mb-xl">Important filing and payment deadlines for individual taxpayers.</p>
+        <div class="resource-category fade-in">
+            <h2 class="resource-category__title">Important Dates</h2>
+            <p class="mb-lg">Key deadlines and dates for tax filing and compliance. All dates are subject to change based on government announcements.</p>
+            
+            <h3 class="resource-subsection__title">Personal Tax Deadlines</h3>
+            <p class="mb-md">Important filing and payment deadlines for individual taxpayers.</p>
         
         <div class="table-container fade-in">
             <table class="table">
@@ -104,13 +99,9 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
                 </tbody>
             </table>
         </div>
-    </div>
-</section>
-
-<section class="section section--alt">
-    <div class="container">
-        <h2 class="section__title">Corporate Tax Deadlines</h2>
-        <p class="mb-xl">Filing and payment deadlines for corporations and businesses.</p>
+        
+        <h3 class="resource-subsection__title mt-xl">Corporate Tax Deadlines</h3>
+        <p class="mb-md">Filing and payment deadlines for corporations and businesses.</p>
         
         <div class="table-container fade-in">
             <table class="table">
@@ -165,13 +156,9 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
                 </tbody>
             </table>
         </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <h2 class="section__title">Other Important Deadlines</h2>
-        <p class="mb-xl">Additional compliance dates and deadlines to remember.</p>
+        
+        <h3 class="resource-subsection__title mt-xl">Other Important Deadlines</h3>
+        <p class="mb-md">Additional compliance dates and deadlines to remember.</p>
         
         <div class="table-container fade-in">
             <table class="table">
@@ -226,30 +213,27 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
                 </tbody>
             </table>
         </div>
-    </div>
-</section>
-
-<section class="section section--alt">
-    <div class="container">
-        <div class="grid grid--3">
+        
+        <div class="grid grid--3 mt-xl">
             <div class="fade-in">
-                <h3>Stay Organized</h3>
+                <h4>Stay Organized</h4>
                 <p>Missing important deadlines can result in penalties and interest charges. Keep track of all relevant dates for your specific situation and set calendar reminders well in advance.</p>
             </div>
             <div class="fade-in">
-                <h3>Plan Ahead</h3>
+                <h4>Plan Ahead</h4>
                 <p>Effective tax planning requires advance preparation. Start gathering your documents and information well before the filing deadlines to ensure accuracy and completeness.</p>
             </div>
             <div class="fade-in">
-                <h3>Professional Support</h3>
+                <h4>Professional Support</h4>
                 <p>Our team can help ensure you never miss an important deadline. We provide proactive reminders and comprehensive compliance services for all your tax obligations.</p>
             </div>
+        </div>
         </div>
     </div>
 </section>
 
 <!-- FORMS SECTION -->
-<section id="forms" class="section">
+<section id="forms" class="section section--compact">
     <div class="container">
         <div class="resource-category fade-in">
             <h2 class="resource-category__title">Forms</h2>
@@ -314,7 +298,7 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
 </section>
 
 <!-- USEFUL LINKS SECTION -->
-<section id="useful-links" class="section section--alt">
+<section id="useful-links" class="section section--compact section--alt">
     <div class="container">
         <div class="resource-category fade-in">
             <h2 class="resource-category__title">Useful Links</h2>
@@ -414,7 +398,7 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
 </section>
 
 <!-- GOVERNMENT SECTION -->
-<section id="government" class="section">
+<section id="government" class="section section--compact">
     <div class="container">
         <div class="resource-category fade-in">
             <h2 class="resource-category__title">Government</h2>
@@ -451,7 +435,7 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
 </section>
 
 <!-- FINANCIAL SECTION -->
-<section id="financial" class="section section--alt">
+<section id="financial" class="section section--compact section--alt">
     <div class="container">
         <div class="resource-category fade-in">
             <h2 class="resource-category__title">Financial</h2>
@@ -474,7 +458,7 @@ setPageMeta('Resources & Important Dates', 'Access valuable financial resources,
 </section>
 
 <!-- ACCOUNTING INSTITUTES SECTION -->
-<section id="accounting-institutes" class="section">
+<section id="accounting-institutes" class="section section--compact">
     <div class="container">
         <div class="resource-category fade-in">
             <h2 class="resource-category__title">Accounting Institutes</h2>

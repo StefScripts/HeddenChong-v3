@@ -18,7 +18,7 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Excellence in Financial Services</h2>
-            <p class="section__subtitle">For over 60 years, Hedden Chong LLP has been providing trusted accounting and tax services to individuals, businesses, and organizations throughout British Columbia. Our commitment to excellence and personalized service sets us apart in the industry.</p>
+            <p class="section__subtitle-h2">For over 60 years, Hedden Chong LLP has been providing trusted accounting and tax services to individuals, businesses, and organizations throughout British Columbia. Our commitment to excellence and personalized service sets us apart in the industry.</p>
         </div>
         
         <div class="grid grid--3">
@@ -42,7 +42,7 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Our Services</h2>
-            <p class="section__subtitle">We offer a comprehensive range of accounting, tax, and business advisory services designed to meet your financial needs at every stage of your journey.</p>
+            <p class="section__subtitle-h2">We offer a comprehensive range of accounting, tax, and business advisory services designed to meet your financial needs at every stage of your journey.</p>
         </div>
         
         <div class="grid grid--2">
@@ -81,37 +81,57 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Meet Our Team</h2>
-            <p class="section__subtitle">Our experienced professionals are dedicated to providing exceptional service and building lasting relationships with our clients. Get to know the team that will be working with you.</p>
+            <p class="section__subtitle-h2">Our experienced professionals are dedicated to providing exceptional service and building lasting relationships with our clients. Get to know the team that will be working with you.</p>
         </div>
         
-        <div class="grid grid--4">
+        <div class="grid grid--partners">
+            <a href="/our-team/foo-chan.php">
             <div class="team-member fade-in">
-                <img src="images/team/andrew-young.jpg" alt="Andrew Young, Partner" class="team-member__image">
-                <h3 class="team-member__name">Andrew Young</h3>
-                <p class="team-member__title">Managing Partner</p>
-                <a href="our-team/andrew-young.php" class="team-member__link">View Profile</a>
-            </div>
-            
-            <div class="team-member fade-in">
-                <img src="images/team/foo-chan.jpg" alt="Foo Chan, Senior Manager" class="team-member__image">
+                <img src="/images/team/foo-chan.jpg" alt="Foo Chan, Senior Manager" class="team-member__image">
                 <h3 class="team-member__name">Foo Chan</h3>
-                <p class="team-member__title">Senior Manager</p>
-                <a href="our-team/foo-chan.php" class="team-member__link">View Profile</a>
+                <p class="team-member__title">Partner, CPA, CA</p>
             </div>
+            </a>
             
+            <a href="/our-team/ivano-cristante.php">
             <div class="team-member fade-in">
-                <img src="images/team/nicole-moore.jpg" alt="Nicole Moore, Tax Manager" class="team-member__image">
+                <img src="/images/team/ivano-cristante.jpg" alt="Ivano Cristante, Senior Partner" class="team-member__image">
+                <h3 class="team-member__name">Ivano Cristante</h3>
+                <p class="team-member__title">Partner, CPA, CA</p>
+            </div>
+            </a>
+            
+            <a href="/our-team/nicole-moore.php">
+            <div class="team-member fade-in">
+                <img src="/images/team/nicole-moore.jpg" alt="Nicole Moore, Tax Manager" class="team-member__image">
                 <h3 class="team-member__name">Nicole Moore</h3>
-                <p class="team-member__title">Tax Manager</p>
-                <a href="our-team/nicole-moore.php" class="team-member__link">View Profile</a>
+                <p class="team-member__title">Partner, CPA, CA</p>
             </div>
+            </a>
             
+            <a href="/our-team/ken-pawluk.php">
             <div class="team-member fade-in">
-                <img src="images/team/james-bushell.jpg" alt="James Bushell, Senior Accountant" class="team-member__image">
-                <h3 class="team-member__name">James Bushell</h3>
-                <p class="team-member__title">Senior Accountant</p>
-                <a href="our-team/james-bushell.php" class="team-member__link">View Profile</a>
+                <img src="/images/team/ken-pawluk.jpg" alt="Ken Pawluk, Tax Specialist" class="team-member__image">
+                <h3 class="team-member__name">Ken Pawluk</h3>
+                <p class="team-member__title">Partner, CPA, CA</p>
             </div>
+            </a>
+            
+            <a href="/our-team/tom-rogic.php">
+            <div class="team-member fade-in">
+                <img src="/images/team/tom-rogic.jpg" alt="Tom Rogic, Business Advisor" class="team-member__image">
+                <h3 class="team-member__name">Tom Rogic</h3>
+                <p class="team-member__title">Partner, CPA</p>
+            </div>
+            </a>
+
+            <a href="/our-team/andrew-young.php">
+            <div class="team-member fade-in">
+                <img src="/images/team/andrew-young.jpg" alt="Andrew Young, Managing Partner" class="team-member__image">
+                <h3 class="team-member__name">Andrew Young</h3>
+                <p class="team-member__title">Partner, CPA, CA</p>
+            </div>
+            </a>
         </div>
         
         <div class="text-center mt-xl">
@@ -124,7 +144,7 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
     <div class="container">
         <div class="section__header">
             <h2 class="section__title">Client Testimonials</h2>
-            <p class="section__subtitle">Discover why businesses and individuals trust Hedden Chong LLP for their accounting and financial needs.</p>
+            <p class="section__subtitle-h2">Discover why businesses and individuals trust Hedden Chong LLP for their accounting and financial needs.</p>
         </div>
         
         <div class="grid grid--3">
