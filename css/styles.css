@@ -369,6 +369,12 @@ button {
   justify-content: center;
 }
 
+.hero__actions--client {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
 /* ==========================================================================
    SECTIONS & LAYOUT
    ========================================================================== */
@@ -813,16 +819,16 @@ main > .breadcrumb + .section {
     grid-template-columns: 1fr 2fr 1fr;
     gap: var(--spacing-xxl);
   }
-  
+
   .footer__section--logo {
     justify-self: start;
     align-self: start;
   }
-  
+
   .footer__section--contact {
     justify-self: center;
   }
-  
+
   .footer__section--cpa {
     justify-self: end;
     align-self: start;
