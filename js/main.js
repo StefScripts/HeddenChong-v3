@@ -3,7 +3,7 @@
  * Handles navigation interactions, scroll effects, and mobile menu
  */
 
-(function() {
+(function () {
   'use strict';
 
   // Check if user prefers reduced motion
@@ -42,17 +42,17 @@
   function initMobileNavigation() {
     const toggleButton = document.querySelector('.nav__toggle');
     const navMenu = document.getElementById('nav-menu');
-    
+
     if (!toggleButton || !navMenu) return;
 
     let isMenuOpen = false;
 
     function toggleMenu() {
       isMenuOpen = !isMenuOpen;
-      
+
       toggleButton.setAttribute('aria-expanded', isMenuOpen.toString());
       navMenu.classList.toggle('nav__menu--open', isMenuOpen);
-      
+
       // Prevent body scroll when menu is open
       document.body.style.overflow = isMenuOpen ? 'hidden' : '';
     }
@@ -70,20 +70,20 @@
     toggleButton.addEventListener('click', toggleMenu);
 
     // Close menu when clicking on nav links
-    navMenu.addEventListener('click', function(e) {
+    navMenu.addEventListener('click', function (e) {
       if (e.target.classList.contains('nav__link')) {
         closeMenu();
       }
     });
 
     // Close menu when clicking outside or pressing escape
-    document.addEventListener('click', function(e) {
+    document.addEventListener('click', function (e) {
       if (isMenuOpen && !toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
         closeMenu();
       }
     });
 
-    document.addEventListener('keydown', function(e) {
+    document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && isMenuOpen) {
         closeMenu();
         toggleButton.focus();
@@ -91,7 +91,7 @@
     });
 
     // Close menu on window resize if screen becomes larger
-    window.addEventListener('resize', function() {
+    window.addEventListener('resize', function () {
       if (window.innerWidth > 1024 && isMenuOpen) {
         closeMenu();
       }
@@ -106,9 +106,7 @@
     if (prefersReducedMotion) return;
 
     // Elements to animate
-    const animatedElements = document.querySelectorAll(
-      '.fade-in, .slide-in-left, .slide-in-right, .team-member, .testimonial, .service-item'
-    );
+    const animatedElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .team-member, .testimonial, .service-item');
 
     if (animatedElements.length === 0) return;
 
@@ -117,8 +115,8 @@
       rootMargin: '0px 0px -50px 0px'
     };
 
-    const observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
+    const observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
           observer.unobserve(entry.target);
@@ -127,19 +125,17 @@
     }, observerOptions);
 
     // Add animation classes and observe elements
-    animatedElements.forEach(function(element, index) {
+    animatedElements.forEach(function (element, index) {
       // Add staggered delay for elements in the same container
       if (!prefersReducedMotion) {
         element.style.transitionDelay = (index % 4) * 100 + 'ms';
       }
-      
+
       // Add appropriate animation class if not already present
-      if (!element.classList.contains('fade-in') && 
-          !element.classList.contains('slide-in-left') && 
-          !element.classList.contains('slide-in-right')) {
+      if (!element.classList.contains('fade-in') && !element.classList.contains('slide-in-left') && !element.classList.contains('slide-in-right')) {
         element.classList.add('fade-in');
       }
-      
+
       observer.observe(element);
     });
   }
@@ -150,30 +146,30 @@
    */
   function initFormValidation() {
     const forms = document.querySelectorAll('form');
-    
-    forms.forEach(function(form) {
-      form.addEventListener('submit', function(e) {
+
+    forms.forEach(function (form) {
+      form.addEventListener('submit', function (e) {
         let isValid = true;
         const requiredFields = form.querySelectorAll('[required]');
-        
+
         // Clear previous errors
         clearFormErrors(form);
-        
-        requiredFields.forEach(function(field) {
+
+        requiredFields.forEach(function (field) {
           if (!validateField(field)) {
             isValid = false;
           }
         });
-        
+
         // Validate email fields
         const emailFields = form.querySelectorAll('input[type="email"]');
-        emailFields.forEach(function(field) {
+        emailFields.forEach(function (field) {
           if (field.value && !isValidEmail(field.value)) {
             showFieldError(field, 'Please enter a valid email address');
             isValid = false;
           }
         });
-        
+
         if (!isValid) {
           e.preventDefault();
           // Focus on first error field
@@ -183,25 +179,29 @@
           }
         }
       });
-      
+
       // Real-time validation
-      form.addEventListener('blur', function(e) {
-        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
-          validateField(e.target);
-        }
-      }, true);
+      form.addEventListener(
+        'blur',
+        function (e) {
+          if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+            validateField(e.target);
+          }
+        },
+        true
+      );
     });
   }
 
   function validateField(field) {
     let isValid = true;
-    
+
     // Check if required field is empty
     if (field.hasAttribute('required') && !field.value.trim()) {
       showFieldError(field, 'This field is required');
       isValid = false;
     }
-    
+
     return isValid;
   }
 
@@ -212,15 +212,15 @@
 
   function showFieldError(field, message) {
     clearFieldError(field);
-    
+
     const errorElement = document.createElement('div');
     errorElement.className = 'form-error';
     errorElement.textContent = message;
     errorElement.id = field.id + '-error';
-    
+
     field.setAttribute('aria-describedby', errorElement.id);
     field.classList.add('form-input--error');
-    
+
     field.parentNode.appendChild(errorElement);
   }
 
@@ -235,12 +235,12 @@
 
   function clearFormErrors(form) {
     const errors = form.querySelectorAll('.form-error');
-    errors.forEach(function(error) {
+    errors.forEach(function (error) {
       error.remove();
     });
-    
+
     const errorFields = form.querySelectorAll('.form-input--error');
-    errorFields.forEach(function(field) {
+    errorFields.forEach(function (field) {
       field.classList.remove('form-input--error');
       field.removeAttribute('aria-describedby');
     });
@@ -253,21 +253,21 @@
   function initSmoothScroll() {
     if (prefersReducedMotion) return;
 
-    document.addEventListener('click', function(e) {
+    document.addEventListener('click', function (e) {
       const target = e.target.closest('a[href^="#"]');
       if (!target) return;
-      
+
       const href = target.getAttribute('href');
       if (href === '#') return;
-      
+
       const targetElement = document.querySelector(href);
       if (!targetElement) return;
-      
+
       e.preventDefault();
-      
+
       const headerHeight = document.getElementById('header').offsetHeight;
       const targetPosition = targetElement.offsetTop - headerHeight - 20;
-      
+
       window.scrollTo({
         top: targetPosition,
         behavior: 'smooth'
@@ -282,8 +282,8 @@
   function initSkipLink() {
     const skipLink = document.querySelector('.sr-only');
     if (!skipLink) return;
-    
-    skipLink.addEventListener('focus', function() {
+
+    skipLink.addEventListener('focus', function () {
       this.style.position = 'fixed';
       this.style.top = '10px';
       this.style.left = '10px';
@@ -296,8 +296,8 @@
       this.style.zIndex = '9999';
       this.style.border = '2px solid white';
     });
-    
-    skipLink.addEventListener('blur', function() {
+
+    skipLink.addEventListener('blur', function () {
       this.style.position = 'absolute';
       this.style.width = '1px';
       this.style.height = '1px';
@@ -319,10 +319,10 @@
     // Lazy loading for images (if not natively supported)
     if ('loading' in HTMLImageElement.prototype === false) {
       const images = document.querySelectorAll('img[data-src]');
-      
+
       if (images.length > 0) {
-        const imageObserver = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
+        const imageObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
             if (entry.isIntersecting) {
               const img = entry.target;
               img.src = img.dataset.src;
@@ -331,8 +331,8 @@
             }
           });
         });
-        
-        images.forEach(function(img) {
+
+        images.forEach(function (img) {
           imageObserver.observe(img);
         });
       }
@@ -360,16 +360,58 @@
   }
 
   // Handle browser back/forward buttons
-  window.addEventListener('pageshow', function(e) {
+  window.addEventListener('pageshow', function (e) {
     if (e.persisted) {
       // Page was loaded from cache, ensure proper state
       document.body.style.overflow = '';
       const navMenu = document.getElementById('nav-menu');
       const toggleButton = document.querySelector('.nav__toggle');
-      
+
       if (navMenu) navMenu.classList.remove('nav__menu--open');
       if (toggleButton) toggleButton.setAttribute('aria-expanded', 'false');
     }
   });
 
+  // Accordion functionality for Resources page
+  function initAccordions() {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+    if (accordionHeaders.length === 0) return;
+
+    accordionHeaders.forEach((header) => {
+      header.addEventListener('click', function () {
+        const content = this.nextElementSibling;
+        const icon = this.querySelector('.accordion-icon');
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+        // Close all other accordions
+        accordionHeaders.forEach((otherHeader) => {
+          if (otherHeader !== this) {
+            otherHeader.setAttribute('aria-expanded', 'false');
+            otherHeader.nextElementSibling.classList.remove('open');
+            const otherIcon = otherHeader.querySelector('.accordion-icon');
+            if (otherIcon) otherIcon.textContent = '+';
+          }
+        });
+
+        // Toggle current accordion
+        if (isExpanded) {
+          this.setAttribute('aria-expanded', 'false');
+          content.classList.remove('open');
+          if (icon) icon.textContent = '+';
+        } else {
+          this.setAttribute('aria-expanded', 'true');
+          content.classList.add('open');
+          if (icon) icon.textContent = '−';
+        }
+      });
+    });
+  }
+
+  // Initialize accordions when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAccordions);
+  } else {
+    initAccordions();
+  }
 })();
