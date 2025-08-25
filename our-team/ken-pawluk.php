@@ -21,7 +21,7 @@ setPageMeta('Ken Pawluk - Tax Specialist', 'Ken Pawluk is a Tax Specialist at He
                 <div>
                     <div style="margin-top: var(--spacing-xl); justify-self:center;">
                         <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
-                        <strong>Email:</strong> <a href="mailto:ken@heddenchong.ca">ken@heddenchong.ca</a></p>
+                        <strong>Email:</strong> <a href="mailto:ken@heddenchong.com">ken@heddenchong.com</a></p>
                     </div>
                 </div>
             </div>

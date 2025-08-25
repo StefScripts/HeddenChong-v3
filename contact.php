@@ -3,8 +3,17 @@ include 'partials/header.php';
 setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting and tax services. Get in touch with our experienced team for a consultation.');
 ?>
 
-<section class="section section--compact">
+<section class="section section--contact">
     <div class="container">
+        <div class="section__header" style="align-items: center; margin-bottom: 0;">
+            <div>
+                <h1 class="hero__title-alt">Contact Us</h1>
+                <p class="hero__subtitle-alt">
+                    Get in touch with our team of experts today.</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
         <div class="grid grid--2">
             <div>
                 <h1 class="section__title mb-md">Contact Us</h1>
@@ -24,33 +33,35 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
-<section class="section section--alt" id="contact-form">
+<section class="section section" id="contact-form">
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
                 <h2>Office Information</h2>
                 <address style="font-style: normal;">
                     <p><strong>Hedden Chong LLP</strong><br>
-                    123 Professional Drive<br>
-                    Vancouver, BC V6B 1A1<br>
-                    Canada</p>
-                    
+                        123 Professional Drive<br>
+                        Vancouver, BC V6B 1A1<br>
+                        Canada</p>
+
                     <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 555-0123</a><br>
-                    <strong>Fax:</strong> (604) 555-0124<br>
-                    <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a></p>
+                        <strong>Fax:</strong> (604) 555-0124<br>
+                        <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a>
+                    </p>
                 </address>
-                
+
                 <h3>Office Hours</h3>
                 <p><strong>Monday - Friday:</strong> 8:30 AM - 5:30 PM<br>
-                <strong>Saturday:</strong> By appointment only<br>
-                <strong>Sunday:</strong> Closed</p>
-                
+                    <strong>Saturday:</strong> By appointment only<br>
+                    <strong>Sunday:</strong> Closed
+                </p>
+
                 <p class="text-muted"><em>Extended hours available during tax season (January - April)</em></p>
             </div>
-            
+
             <div class="fade-in">
                 <h2>Send Us a Message</h2>
                 <form id="contact-form" class="contact-form">
@@ -58,22 +69,22 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
                         <label for="name" class="form-label">Full Name *</label>
                         <input type="text" id="name" name="name" class="form-input" required>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="email" class="form-label">Email Address *</label>
                         <input type="email" id="email" name="email" class="form-input" required>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="phone" class="form-label">Phone Number</label>
                         <input type="tel" id="phone" name="phone" class="form-input">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="company" class="form-label">Company/Organization</label>
                         <input type="text" id="company" name="company" class="form-input">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="service" class="form-label">Service Interest</label>
                         <select id="service" name="service" class="form-select">
@@ -87,19 +98,20 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
                             <option value="other">Other</option>
                         </select>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="message" class="form-label">Message *</label>
-                        <textarea id="message" name="message" class="form-textarea" rows="6" placeholder="Please describe how we can help you..." required></textarea>
+                        <textarea id="message" name="message" class="form-textarea" rows="6"
+                            placeholder="Please describe how we can help you..." required></textarea>
                     </div>
-                    
+
                     <div class="form-group">
                         <label>
                             <input type="checkbox" name="consent" required>
                             I consent to being contacted by Hedden Chong LLP regarding my inquiry. *
                         </label>
                     </div>
-                    
+
                     <button type="submit" class="btn btn--primary btn--large">Send Message</button>
                 </form>
             </div>
@@ -107,14 +119,16 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
     </div>
 </section>
 
-<section class="section">
+<section class="section--alt">
     <div class="container">
         <h2 class="section__title">Our Location</h2>
-        <p class="section__subtitle mb-xl">Conveniently located in downtown Vancouver with easy access to public transit and parking.</p>
-        
+        <p class="section__subtitle mb-xl">Conveniently located in downtown Vancouver with easy access to public transit
+            and parking.</p>
+
         <div class="grid grid--2">
             <div class="fade-in">
-                <div class="map-placeholder" style="width: 100%; height: 300px; background-color: #e5e7eb; border: 2px dashed #9ca3af; display: flex; align-items: center; justify-content: center; border-radius: var(--border-radius);">
+                <div class="map-placeholder"
+                    style="width: 100%; height: 300px; background-color: #e5e7eb; border: 2px dashed #9ca3af; display: flex; align-items: center; justify-content: center; border-radius: var(--border-radius);">
                     <div style="text-align: center; color: var(--color-muted);">
                         <h3>Interactive Map</h3>
                         <p>123 Professional Drive<br>Vancouver, BC V6B 1A1</p>
@@ -122,7 +136,7 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
                     </div>
                 </div>
             </div>
-            
+
             <div class="fade-in">
                 <h3>Transportation & Parking</h3>
                 <ul>
@@ -131,7 +145,7 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
                     <li><strong>Parking:</strong> Underground visitor parking available</li>
                     <li><strong>Bike Storage:</strong> Secure bike storage in building</li>
                 </ul>
-                
+
                 <h3>Nearby Landmarks</h3>
                 <ul>
                     <li>Vancouver Convention Centre - 0.3 km</li>
@@ -139,7 +153,7 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
                     <li>Canada Place - 0.6 km</li>
                     <li>Downtown Financial District - 0.8 km</li>
                 </ul>
-                
+
                 <div class="mt-lg">
                     <a href="https://maps.google.com" target="_blank" class="btn btn--secondary">Get Directions</a>
                 </div>
@@ -148,7 +162,7 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
     </div>
 </section>
 
-<section class="section section--alt">
+<!-- <section class="section section--alt">
     <div class="container">
         <h2 class="section__title">Why Choose Hedden Chong LLP?</h2>
         
@@ -167,31 +181,33 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="cta">
     <div class="container">
         <h2 class="cta__title">Ready to Get Started?</h2>
-        <p class="cta__text">Contact Hedden Chong LLP today to schedule a consultation and discover how our professional services can benefit you.</p>
+        <p class="cta__text">Contact Hedden Chong LLP today to schedule a consultation and discover how our professional
+            services can benefit you.</p>
         <div class="cta__actions">
             <a href="tel:+16045550123" class="btn btn--white btn--large">(604) 555-0123</a>
-            <a href="mailto:info@heddenchong.ca" class="btn btn--secondary" style="color: white; border-color: white;">Email Us</a>
+            <a href="mailto:info@heddenchong.ca" class="btn btn--secondary"
+                style="color: white; border-color: white;">Email Us</a>
         </div>
     </div>
 </section>
 
 <script>
-// Additional form handling for contact form
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // In a real implementation, this would send the form data to a server
-    // For demo purposes, we'll show a simple success message
-    alert('Thank you for your message! We will contact you within 1 business day.');
-    
-    // Reset form
-    this.reset();
-});
+    // Additional form handling for contact form
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // In a real implementation, this would send the form data to a server
+        // For demo purposes, we'll show a simple success message
+        alert('Thank you for your message! We will contact you within 1 business day.');
+
+        // Reset form
+        this.reset();
+    });
 </script>
 
 <?php include 'partials/footer.php'; ?>

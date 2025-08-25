@@ -31,7 +31,7 @@ setPageMeta('Inderpaul Tehara - Senior Accountant', 'Inderpaul Tehara is a Senio
                 
                 <p>Inderpaul has been a Manager at Hedden Chong LLP since 2021, bringing nine years of comprehensive accounting experience to the team. Colleagues describe him as a reliable and responsible professional capable of getting things done in an efficient manner.</p>
                 
-                <p>Inderpaul is eager to learn and take on new responsibilities and challenges, demonstrating strong leadership qualities while maintaining his focus on helping the business succeed. He is fluent in both English and Punjabi, enabling him to serve a diverse client base.</p>
+                <!-- <p>Inderpaul is eager to learn and take on new responsibilities and challenges, demonstrating strong leadership qualities while maintaining his focus on helping the business succeed. He is fluent in both English and Punjabi, enabling him to serve a diverse client base.</p> -->
                 
                 <h3>Education & Qualifications</h3>
                 <ul>
@@ -51,7 +51,7 @@ setPageMeta('Inderpaul Tehara - Senior Accountant', 'Inderpaul Tehara is a Senio
                     <li>Multi-tasking and project management</li>
                 </ul>
                 
-                <p>Inderpaul's strong team-oriented approach and commitment to professional excellence make him a valuable asset to both the firm and its clients. His diverse skill set and bilingual capabilities enhance his ability to serve clients effectively.</p>
+                <p>Inderpaul's strong team-oriented approach and commitment to professional excellence make him a valuable asset to both the firm and its clients. His diverse skill set and bilingual capabilities (in both English and Punjabi) enhance his ability to serve clients effectively.</p>
                 
                 <div class="mt-xl">
                     <a href="mailto:inderpaul.tehara@heddenchong.ca" class="btn btn--primary">Contact Inderpaul</a>
