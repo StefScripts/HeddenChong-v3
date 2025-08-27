@@ -37,30 +37,30 @@ if ($current_page === '' || $current_page === 'index') {
     <?php if ($current_page === 'home'): ?>
         <!-- JSON-LD Organization Schema -->
         <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Hedden Chong LLP",
-            "foundingDate": "1961",
-            "description": "Professional accounting and tax services",
-            "url": "https://example.com",
-            "logo": "https://example.com/images/logo-hedden-chong.jpg",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "123 Professional Drive",
-                "addressLocality": "Vancouver",
-                "addressRegion": "BC",
-                "postalCode": "V6B 1A1",
-                "addressCountry": "CA"
-            },
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+1-604-555-0123",
-                "contactType": "customer service",
-                "email": "info@heddenchong.ca"
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Hedden Chong LLP",
+                "foundingDate": "1961",
+                "description": "Professional accounting and tax services",
+                "url": "https://example.com",
+                "logo": "https://example.com/images/logo-hedden-chong.jpg",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "123 Professional Drive",
+                    "addressLocality": "Vancouver",
+                    "addressRegion": "BC",
+                    "postalCode": "V6B 1A1",
+                    "addressCountry": "CA"
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+1-604-555-0123",
+                    "contactType": "customer service",
+                    "email": "info@heddenchong.com"
+                }
             }
-        }
-        </script>
+            </script>
     <?php endif; ?>
 </head>
 

@@ -17,22 +17,27 @@ setPageMeta('Lisa Fong - Bookkeeping Manager', 'Lisa Fong is the Bookkeeping Man
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
-                <img src="../images/team/lisa-fong.jpg" alt="Lisa Fong, Bookkeeping Manager" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <img src="../images/team/lisa-fong.jpg" alt="Lisa Fong, Bookkeeping Manager"
+                    style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
                 <div>
                     <div style="margin-top: var(--spacing-xl); justify-self:center;">
                         <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
-                        <strong>Email:</strong> <a href="mailto:lisa@heddenchong.ca">lisa@heddenchong.ca</a></p>
+                            <strong>Email:</strong> <a href="mailto:lisa@heddenchong.com">lisa@heddenchong.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="fade-in">
                 <h1>Lisa Fong</h1>
                 <h2 class="text-muted mb-md">Bookkeeping Manager</h2>
-                
-                <p>Lisa Fong serves as Bookkeeping Manager at Hedden Chong LLP with over 15 years of experience in bookkeeping and financial record management. She oversees the firm's bookkeeping department and ensures accurate financial records for all clients.</p>
-                
-                <p>Lisa is known for her meticulous attention to detail, organizational skills, and ability to streamline bookkeeping processes for maximum efficiency and accuracy.</p>
-                
+
+                <p>Lisa Fong serves as Bookkeeping Manager at Hedden Chong LLP with over 15 years of experience in
+                    bookkeeping and financial record management. She oversees the firm's bookkeeping department and
+                    ensures accurate financial records for all clients.</p>
+
+                <p>Lisa is known for her meticulous attention to detail, organizational skills, and ability to
+                    streamline bookkeeping processes for maximum efficiency and accuracy.</p>
+
                 <h3>Qualifications</h3>
                 <ul>
                     <li>Certified Bookkeeper Designation</li>
@@ -40,7 +45,7 @@ setPageMeta('Lisa Fong - Bookkeeping Manager', 'Lisa Fong is the Bookkeeping Man
                     <li>QuickBooks Desktop and Online Certification</li>
                     <li>Sage 50 Accounting Certification</li>
                 </ul>
-                
+
                 <h3>Areas of Expertise</h3>
                 <ul>
                     <li>Full-cycle bookkeeping services</li>
@@ -50,11 +55,12 @@ setPageMeta('Lisa Fong - Bookkeeping Manager', 'Lisa Fong is the Bookkeeping Man
                     <li>Accounts payable and receivable</li>
                     <li>Team management and training</li>
                 </ul>
-                
-                <p>Lisa takes pride in helping businesses maintain accurate financial records and providing reliable support that enables our accounting team to deliver exceptional service to clients.</p>
-                
+
+                <p>Lisa takes pride in helping businesses maintain accurate financial records and providing reliable
+                    support that enables our accounting team to deliver exceptional service to clients.</p>
+
                 <div class="mt-xl">
-                    <a href="mailto:lisa.fong@heddenchong.ca" class="btn btn--primary">Contact Lisa</a>
+                    <a href="mailto:lisa.fong@heddenchong.com" class="btn btn--primary">Contact Lisa</a>
                 </div>
             </div>
         </div>

@@ -17,22 +17,28 @@ setPageMeta('James Bushell - Senior Accountant', 'James Bushell is a Senior Acco
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
-                <img src="../images/team/james-bushell.jpg" alt="James Bushell, Senior Accountant" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <img src="../images/team/james-bushell.jpg" alt="James Bushell, Senior Accountant"
+                    style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
                 <div>
                     <div style="margin-top: var(--spacing-xl); justify-self:center;">
                         <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
-                        <strong>Email:</strong> <a href="mailto:james@heddenchong.ca">james@heddenchong.ca</a></p>
+                            <strong>Email:</strong> <a href="mailto:james@heddenchong.com">james@heddenchong.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="fade-in">
                 <h1>James Bushell</h1>
                 <h2 class="text-muted mb-md">Senior Accountant, CPA</h2>
-                
-                <p>James Bushell is a Senior Accountant at Hedden Chong LLP with over 12 years of experience in public accounting. He provides comprehensive accounting and tax services to small and medium-sized businesses, as well as individual clients.</p>
-                
-                <p>James is valued by clients for his clear communication, thorough approach to problem-solving, and commitment to helping businesses maintain accurate financial records while maximizing tax efficiency.</p>
-                
+
+                <p>James Bushell is a Senior Accountant at Hedden Chong LLP with over 12 years of experience in public
+                    accounting. He provides comprehensive accounting and tax services to small and medium-sized
+                    businesses, as well as individual clients.</p>
+
+                <p>James is valued by clients for his clear communication, thorough approach to problem-solving, and
+                    commitment to helping businesses maintain accurate financial records while maximizing tax
+                    efficiency.</p>
+
                 <h3>Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
@@ -40,7 +46,7 @@ setPageMeta('James Bushell - Senior Accountant', 'James Bushell is a Senior Acco
                     <li>Tax Preparation Certificate</li>
                     <li>QuickBooks ProAdvisor Certification</li>
                 </ul>
-                
+
                 <h3>Areas of Expertise</h3>
                 <ul>
                     <li>Personal and corporate tax preparation</li>
@@ -50,11 +56,13 @@ setPageMeta('James Bushell - Senior Accountant', 'James Bushell is a Senior Acco
                     <li>GST/HST compliance and filing</li>
                     <li>Year-end planning and preparation</li>
                 </ul>
-                
-                <p>James actively participates in continuing education programs and maintains current knowledge of tax legislation changes. He enjoys working with entrepreneurs and growing businesses to help them achieve their financial goals.</p>
-                
+
+                <p>James actively participates in continuing education programs and maintains current knowledge of tax
+                    legislation changes. He enjoys working with entrepreneurs and growing businesses to help them
+                    achieve their financial goals.</p>
+
                 <div class="mt-xl">
-                    <a href="mailto:james.bushell@heddenchong.ca" class="btn btn--primary">Contact James</a>
+                    <a href="mailto:james.bushell@heddenchong.com" class="btn btn--primary">Contact James</a>
                 </div>
             </div>
         </div>

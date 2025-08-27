@@ -17,29 +17,34 @@ setPageMeta('Kalen Chang - Junior Accountant', 'Kalen Chang is a Junior Accounta
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
-                <img src="../images/team/kalen-chang.jpg" alt="Kalen Chang, Junior Accountant" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <img src="../images/team/kalen-chang.jpg" alt="Kalen Chang, Junior Accountant"
+                    style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
                 <div>
                     <div style="margin-top: var(--spacing-xl); justify-self:center;">
                         <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
-                        <strong>Email:</strong> <a href="mailto:kalen@heddenchong.ca">kalen@heddenchong.ca</a></p>
+                            <strong>Email:</strong> <a href="mailto:kalen@heddenchong.com">kalen@heddenchong.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="fade-in">
                 <h1>Kalen Chang</h1>
                 <h2 class="text-muted mb-md">Junior Accountant</h2>
-                
-                <p>Kalen Chang is a Junior Accountant at Hedden Chong LLP, bringing fresh perspective and enthusiasm to the team. As a recent graduate, Kalen is eager to apply academic knowledge while learning from the firm's experienced professionals.</p>
-                
-                <p>Kalen is committed to delivering high-quality work and building strong client relationships while developing expertise in various areas of accounting and taxation.</p>
-                
+
+                <p>Kalen Chang is a Junior Accountant at Hedden Chong LLP, bringing fresh perspective and enthusiasm to
+                    the team. As a recent graduate, Kalen is eager to apply academic knowledge while learning from the
+                    firm's experienced professionals.</p>
+
+                <p>Kalen is committed to delivering high-quality work and building strong client relationships while
+                    developing expertise in various areas of accounting and taxation.</p>
+
                 <h3>Qualifications</h3>
                 <ul>
                     <li>Bachelor of Commerce, University of Victoria</li>
                     <li>CPA Program Candidate</li>
                     <li>Tax Preparation Course Certificate</li>
                 </ul>
-                
+
                 <h3>Areas of Focus</h3>
                 <ul>
                     <li>Basic tax preparation</li>
@@ -49,11 +54,12 @@ setPageMeta('Kalen Chang - Junior Accountant', 'Kalen Chang is a Junior Accounta
                     <li>Administrative accounting tasks</li>
                     <li>Professional development and learning</li>
                 </ul>
-                
-                <p>Kalen is excited to grow within the accounting profession and contribute to the firm's mission of providing exceptional client service while pursuing CPA designation.</p>
-                
+
+                <p>Kalen is excited to grow within the accounting profession and contribute to the firm's mission of
+                    providing exceptional client service while pursuing CPA designation.</p>
+
                 <div class="mt-xl">
-                    <a href="mailto:kalen.chang@heddenchong.ca" class="btn btn--primary">Contact Kalen</a>
+                    <a href="mailto:kalen.chang@heddenchong.com" class="btn btn--primary">Contact Kalen</a>
                 </div>
             </div>
         </div>
