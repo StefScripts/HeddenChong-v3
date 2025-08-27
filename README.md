@@ -59,8 +59,7 @@ HeddenChong-v3/
 ├── index.php                    # Homepage with hero, services, team, testimonials
 ├── our-team.php                 # Team overview page with all members
 ├── services.php                 # Comprehensive service listings
-├── resources.php                # Resource library with categories
-├── dates.php                    # Important tax dates and deadlines
+├── resources.php                # Resource library with tax dates and links
 ├── client-portal.php            # Client portal information and access
 ├── contact.php                  # Contact form and office information
 ├── css/
