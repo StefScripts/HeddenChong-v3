@@ -17,28 +17,35 @@ setPageMeta('Marco Mobilio - Senior Associate', 'Marco Mobilio is a Senior Assoc
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
-                <img src="../images/team/marco-mobilio.jpg" alt="Marco Mobilio, Senior Associate" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <img src="../images/team/marco-mobilio.jpg" alt="Marco Mobilio, Senior Associate"
+                    style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
                 <div>
                     <div style="margin-top: var(--spacing-xl); justify-self:center;">
                         <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
-                        <strong>Email:</strong> <a href="mailto:marco@heddenchong.ca">marco@heddenchong.ca</a></p>
+                            <strong>Email:</strong> <a href="mailto:marco@heddenchong.com">marco@heddenchong.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="fade-in">
                 <h1>Marco Mobilio</h1>
                 <h2 class="text-muted mb-md">Manager, CPA</h2>
-                
-                <p>Marco is a devoted and professional Manager at Hedden Chong LLP with over seven years of comprehensive accounting experience across various areas. He brings excellent communication skills and a hardworking mentality that is evident through his commitment to both full-time work and volunteering.</p>
-                
-                <p>Marco demonstrates particular strength in problem solving, time management, and the ability to work effectively with coworkers in a business environment. His practical approach to accounting challenges makes him a valuable team member.</p>
-                
+
+                <p>Marco is a devoted and professional Manager at Hedden Chong LLP with over seven years of
+                    comprehensive accounting experience across various areas. He brings excellent communication skills
+                    and a hardworking mentality that is evident through his commitment to both full-time work and
+                    volunteering.</p>
+
+                <p>Marco demonstrates particular strength in problem solving, time management, and the ability to work
+                    effectively with coworkers in a business environment. His practical approach to accounting
+                    challenges makes him a valuable team member.</p>
+
                 <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
                     <li>Bachelor of Business Administration (Accounting), Capilano University</li>
                 </ul>
-                
+
                 <h3>Areas of Expertise</h3>
                 <ul>
                     <li>Practical accounting experience across various areas</li>
@@ -48,11 +55,13 @@ setPageMeta('Marco Mobilio - Senior Associate', 'Marco Mobilio is a Senior Assoc
                     <li>Client service and relationship management</li>
                     <li>Professional development and continuous learning</li>
                 </ul>
-                
-                <p>Marco's combination of technical accounting skills, strong work ethic, and collaborative approach makes him an asset to both the firm and its clients. His commitment to professional excellence is demonstrated through his dedicated approach to every project.</p>
-                
+
+                <p>Marco's combination of technical accounting skills, strong work ethic, and collaborative approach
+                    makes him an asset to both the firm and its clients. His commitment to professional excellence is
+                    demonstrated through his dedicated approach to every project.</p>
+
                 <div class="mt-xl">
-                    <a href="mailto:marco.mobilio@heddenchong.ca" class="btn btn--primary">Contact Marco</a>
+                    <a href="mailto:marco.mobilio@heddenchong.com" class="btn btn--primary">Contact Marco</a>
                 </div>
             </div>
         </div>

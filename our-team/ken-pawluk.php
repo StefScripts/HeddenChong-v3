@@ -17,29 +17,35 @@ setPageMeta('Ken Pawluk - Tax Specialist', 'Ken Pawluk is a Tax Specialist at He
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
-                <img src="../images/team/ken-pawluk.jpg" alt="Ken Pawluk, Tax Specialist" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <img src="../images/team/ken-pawluk.jpg" alt="Ken Pawluk, Tax Specialist"
+                    style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
                 <div>
                     <div style="margin-top: var(--spacing-xl); justify-self:center;">
                         <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
-                        <strong>Email:</strong> <a href="mailto:ken@heddenchong.com">ken@heddenchong.com</a></p>
+                            <strong>Email:</strong> <a href="mailto:ken@heddenchong.com">ken@heddenchong.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="fade-in">
                 <h1>Ken Pawluk</h1>
                 <h2 class="text-muted mb-md">Partner, CPA, CA</h2>
-                
-                <p>Ken brings over three decades of professional experience to Hedden Chong LLP, having become a Partner in 2007. After gaining valuable experience in industry, he has dedicated his focus to advising owner-managed businesses and helping them navigate the complexities of business ownership.</p>
-                
-                <p>With his CA designation obtained in 1991, Ken has built a strong foundation of technical expertise that enables him to provide comprehensive business advisory services tailored to each client's unique needs and objectives.</p>
-                
+
+                <p>Ken brings over three decades of professional experience to Hedden Chong LLP, having become a Partner
+                    in 2007. After gaining valuable experience in industry, he has dedicated his focus to advising
+                    owner-managed businesses and helping them navigate the complexities of business ownership.</p>
+
+                <p>With his CA designation obtained in 1991, Ken has built a strong foundation of technical expertise
+                    that enables him to provide comprehensive business advisory services tailored to each client's
+                    unique needs and objectives.</p>
+
                 <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
                     <li>Chartered Accountant (CA) - 1991</li>
                     <li>Bachelor of Business Administration, Simon Fraser University - 1990</li>
                 </ul>
-                
+
                 <h3>Areas of Expertise</h3>
                 <ul>
                     <li>Owner-managed businesses</li>
@@ -49,11 +55,13 @@ setPageMeta('Ken Pawluk - Tax Specialist', 'Ken Pawluk is a Tax Specialist at He
                     <li>Strategic business planning</li>
                     <li>Industry experience and insights</li>
                 </ul>
-                
-                <p>Ken's combination of industry experience and public practice expertise provides clients with practical, real-world insights that help them make informed decisions and achieve their business goals.</p>
-                
+
+                <p>Ken's combination of industry experience and public practice expertise provides clients with
+                    practical, real-world insights that help them make informed decisions and achieve their business
+                    goals.</p>
+
                 <div class="mt-xl">
-                    <a href="mailto:ken.pawluk@heddenchong.ca" class="btn btn--primary">Contact Ken</a>
+                    <a href="mailto:ken.pawluk@heddenchong.com" class="btn btn--primary">Contact Ken</a>
                 </div>
             </div>
         </div>

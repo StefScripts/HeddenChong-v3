@@ -83,7 +83,7 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
                             <p><strong>Fax:</strong><br>(604) 291-1601<br></p>
                         </div>
                         <div style="font-size: 1.05rem;">
-                            <p><strong>Email:</strong><br><a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a>
+                            <p><strong>Email:</strong><br><a href="mailto:info@heddenchong.com">info@heddenchong.com</a>
                             </p>
                         </div>
                     </address>

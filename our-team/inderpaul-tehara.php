@@ -17,22 +17,27 @@ setPageMeta('Inderpaul Tehara - Senior Accountant', 'Inderpaul Tehara is a Senio
     <div class="container">
         <div class="grid grid--2">
             <div class="fade-in">
-                <img src="../images/team/inderpaul-tehara.jpg" alt="Inderpaul Tehara, Senior Accountant" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
+                <img src="../images/team/inderpaul-tehara.jpg" alt="Inderpaul Tehara, Senior Accountant"
+                    style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;">
                 <div>
                     <div style="margin-top: var(--spacing-xl); justify-self:center;">
                         <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 320-5862</a><br>
-                        <strong>Email:</strong> <a href="mailto:inderpaul@heddenchong.ca">inderpaul@heddenchong.ca</a></p>
+                            <strong>Email:</strong> <a
+                                href="mailto:inderpaul@heddenchong.com">inderpaul@heddenchong.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="fade-in">
                 <h1>Inderpaul Tehara</h1>
                 <h2 class="text-muted mb-md">Manager, CPA</h2>
-                
-                <p>Inderpaul has been a Manager at Hedden Chong LLP since 2021, bringing nine years of comprehensive accounting experience to the team. Colleagues describe him as a reliable and responsible professional capable of getting things done in an efficient manner.</p>
-                
+
+                <p>Inderpaul has been a Manager at Hedden Chong LLP since 2021, bringing nine years of comprehensive
+                    accounting experience to the team. Colleagues describe him as a reliable and responsible
+                    professional capable of getting things done in an efficient manner.</p>
+
                 <!-- <p>Inderpaul is eager to learn and take on new responsibilities and challenges, demonstrating strong leadership qualities while maintaining his focus on helping the business succeed. He is fluent in both English and Punjabi, enabling him to serve a diverse client base.</p> -->
-                
+
                 <h3>Education & Qualifications</h3>
                 <ul>
                     <li>Chartered Professional Accountant (CPA)</li>
@@ -40,7 +45,7 @@ setPageMeta('Inderpaul Tehara - Senior Accountant', 'Inderpaul Tehara is a Senio
                     <li>Diploma in Accounting Program, University of British Columbia (2012-2014)</li>
                     <li>Bachelor of Business Administration (Finance), Simon Fraser University (2006-2010)</li>
                 </ul>
-                
+
                 <h3>Areas of Expertise</h3>
                 <ul>
                     <li>Problem solving and analytical thinking</li>
@@ -50,11 +55,13 @@ setPageMeta('Inderpaul Tehara - Senior Accountant', 'Inderpaul Tehara is a Senio
                     <li>Forecasting and budgeting</li>
                     <li>Multi-tasking and project management</li>
                 </ul>
-                
-                <p>Inderpaul's strong team-oriented approach and commitment to professional excellence make him a valuable asset to both the firm and its clients. His diverse skill set and bilingual capabilities (in both English and Punjabi) enhance his ability to serve clients effectively.</p>
-                
+
+                <p>Inderpaul's strong team-oriented approach and commitment to professional excellence make him a
+                    valuable asset to both the firm and its clients. His diverse skill set and bilingual capabilities
+                    (in both English and Punjabi) enhance his ability to serve clients effectively.</p>
+
                 <div class="mt-xl">
-                    <a href="mailto:inderpaul.tehara@heddenchong.ca" class="btn btn--primary">Contact Inderpaul</a>
+                    <a href="mailto:inderpaul.tehara@heddenchong.com" class="btn btn--primary">Contact Inderpaul</a>
                 </div>
             </div>
         </div>
