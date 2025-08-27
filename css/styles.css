@@ -104,7 +104,7 @@ h6 {
 }
 
 p {
-  margin: 0 0 var(--spacing-md) 0;
+  margin: 0 0 var(--spacing-sm) 0;
 }
 
 a {
@@ -324,7 +324,7 @@ button {
 
 .hero--home {
   height: var(--hero-height-home);
-  min-height: 450px;
+  /* min-height: 450px; */
 }
 
 .hero--internal {
@@ -338,7 +338,7 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.75);
   z-index: 1;
 }
 
@@ -346,7 +346,7 @@ button {
   position: relative;
   z-index: 2;
   max-width: 800px;
-  padding: var(--spacing-xl);
+  padding: var(--spacing-xxl);
 }
 
 .hero__title {
@@ -364,16 +364,25 @@ button {
 }
 
 .hero__subtitle {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+.hero__subtitle--home {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: var(--spacing-lg);
+}
+
 .hero__subtitle-alt {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: var(--color-semi);
-  margin-bottom: var(--spacing-xl);
+  /* margin-bottom: var(--spacing-xl); */
 }
 
 .hero__actions {
@@ -397,12 +406,14 @@ button {
    ========================================================================== */
 
 .section {
-  padding: var(--spacing-xxxl) 0;
+  padding: var(--spacing-xxl) 0;
+  /* margin-top: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm); */
 }
 
 .section--alt {
   background-color: var(--color-alt);
-  padding: var(--spacing-xxxl) 0;
+  padding: var(--spacing-xxl) 0;
 }
 
 .section--compact {
@@ -432,12 +443,12 @@ main > .breadcrumb + .section {
 
 .section__header {
   text-align: center;
-  margin-bottom: var(--spacing-xxl);
+  margin-bottom: var(--spacing-md);
 }
 
 .section__header-services {
-  text-align: center;
-  margin-bottom: var(--spacing-xl);
+  text-align: left;
+  margin-bottom: var(--spacing-md);
 }
 
 .section__title {
@@ -446,6 +457,7 @@ main > .breadcrumb + .section {
 }
 
 .section__title--services {
+  margin-top: var(--spacing-md);
   margin-bottom: var(--spacing-sm);
 }
 
@@ -473,6 +485,8 @@ main > .breadcrumb + .section {
   color: var(--color-muted);
   max-width: 600px;
   margin: 0 auto;
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid #e5e7eb;
 }
 
 .section__subtitle-contact {
@@ -508,6 +522,7 @@ main > .breadcrumb + .section {
   .grid--partners {
     grid-template-columns: repeat(3, 1fr);
   }
+
 }
 
 /* ==========================================================================
@@ -676,17 +691,17 @@ main > .breadcrumb + .section {
 }
 
 .service-item:last-child {
-  border-bottom: none;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .service-item__title {
   font-size: 1.25rem;
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
 }
 
 .service-item__description {
   color: var(--color-muted);
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
 }
 
 /* Resource Item */
@@ -1031,6 +1046,7 @@ main > .breadcrumb + .section {
     --spacing-xl: 2rem;
     --spacing-xxl: 2.5rem;
     --spacing-xxxl: 3rem;
+    --hero-height-internal: 45vh;
   }
 
   .container {
@@ -1042,17 +1058,19 @@ main > .breadcrumb + .section {
     margin-bottom: var(--spacing-md);
   }
 
+  
+
   .hero__title {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 
   .hero__title-alt {
-    font-size: 2rem;
+    font-size: 2.25rem;
     text-shadow: 0.25px 0.25px 0.5px rgba(0, 3, 46, 0.5);
   }
 
   .hero__content {
-    padding: var(--spacing-lg);
+    padding: var(--spacing-xxl);
   }
 
   .section__title {
@@ -1144,7 +1162,17 @@ main > .breadcrumb + .section {
     padding-top: var(--spacing-md);
     font-size: 0.875rem;
   }
+
+    .service-item {
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .service-item:last-child {
+    border-bottom: none;
+  }
 }
+
+
 
 /* Tablet styles */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -1191,6 +1219,15 @@ main > .breadcrumb + .section {
   .footer {
     padding: var(--spacing-xxl) 0 var(--spacing-lg) 0;
   }
+
+  .grid--2 {
+  grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+
+  .service-item:last-child {
+    border-bottom: none;
+  }
+
 }
 
 /* Mid-range screens - keep CPA logo on same row */
@@ -1299,6 +1336,12 @@ main > .breadcrumb + .section {
 
   .grid--2 {
     grid-template-columns: repeat(2, minmax(400px, 1fr));
+  }
+}
+
+@media (min-width: 769px) {
+  .contact-info {
+    justify-self: center;
   }
 }
 

@@ -6,7 +6,9 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
 <section class="hero hero--home" style="background-image: url('images/hero-home.jpg');">
     <div class="hero__content">
         <h1 class="hero__title">Professional Accounting Services Since 1961</h1>
-        <p class="hero__subtitle">Trust Hedden Chong LLP for comprehensive financial guidance, expert tax services, and
+        <p class="hero__subtitle--home">Trust Hedden Chong LLP for comprehensive financial guidance, expert tax
+            services,
+            and
             strategic business solutions tailored to your needs.</p>
         <div class="hero__actions">
             <a href="contact.php" class="btn btn--white btn--large">Get Started Today</a>
@@ -207,10 +209,11 @@ setPageMeta('Home', 'Professional accounting and tax services from Hedden Chong 
         <p class="cta__text">Contact Hedden Chong LLP today to discuss how our comprehensive accounting and tax services
             can benefit you or your business.</p>
         <div class="cta__actions">
-            <a href="contact.php" class="btn btn--white btn--large">Contact Us Today</a>
-            <a href="tel:+16045550123" class="btn btn--secondary" style="color: white; border-color: white;">(604)
-                555-0123</a>
+            <a href="contact.php" class="btn btn--white btn--large">Contact Our Team</a>
+            <a href="services.php" class="btn btn--secondary" style="color: white; border-color: white;">Our
+                Services</a>
         </div>
+    </div>
     </div>
 </section>
 

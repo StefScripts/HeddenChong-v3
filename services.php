@@ -24,14 +24,15 @@ setPageMeta('Services', 'Comprehensive accounting, tax, audit, and business advi
 
 <section class="section section--alt section--compact" id="tax-planning-compliance">
     <div class="container">
-        <div class="section__header-services">
+        <div class="section__header">
             <h3 class="section__title">Tax Planning & Compliance</h3>
 
-            <p class="section__subtitle-h2">Specialized corporate, personal, and estate tax planning with full CRA
+            <p class="section__subtitle-services">Specialized corporate, personal, and estate tax planning with full CRA
                 compliance—minimizing tax while managing risk.</p>
         </div>
 
-        <div class="grid grid--2" style="gap: var(--spacing-lg);">
+        <div class="grid grid--2" style="
+    column-gap: 48px;">
             <div class="service-item fade-in">
                 <h4 class="service-item__title">Corporate Tax Planning</h4>
                 <p class="service-item__description">Structuring, income deferral, and remuneration strategies aligned
@@ -100,13 +101,14 @@ setPageMeta('Services', 'Comprehensive accounting, tax, audit, and business advi
 
 <section class="section section--compact" id="accounting-auditing">
     <div class="container">
-        <div class="section__header-services">
+        <div class="section__header">
             <h3 class="section__title">Accounting & Auditing</h3>
             <p class="section__subtitle-services">Financial statements and assurance services for private companies,
                 not-for-profits, and owner-managed businesses.</p>
         </div>
 
-        <div class="grid grid--2" style="gap: var(--spacing-lg);">
+        <div class="grid grid--2" style="
+    column-gap: 48px;">
             <div class="service-item fade-in">
                 <h4 class="service-item__title">Financial Statement Preparation</h4>
                 <p class="service-item__description">ASPE/IFRS statements tailored for management, lenders, and
@@ -154,13 +156,14 @@ setPageMeta('Services', 'Comprehensive accounting, tax, audit, and business advi
 
 <section class="section section--alt section--compact" id="business-valuation">
     <div class="container">
-        <div class="section__header-services">
+        <div class="section__header">
             <h3 class="section__title">Business Valuation</h3>
             <p class="section__subtitle-services">Independent valuations and practical insights to quantify value and
                 improve performance.</p>
         </div>
 
-        <div class="grid grid--2" style="gap: var(--spacing-lg);">
+        <div class="grid grid--2" style="
+    column-gap: 48px;">
             <div class="service-item fade-in">
                 <h4 class="service-item__title">Independent Business Valuations</h4>
                 <p class="service-item__description">Valuations for transactions, tax reorganizations, shareholder
@@ -187,13 +190,14 @@ setPageMeta('Services', 'Comprehensive accounting, tax, audit, and business advi
 
 <section class="section section--compact" id="mergers-acquisitions">
     <div class="container">
-        <div class="section__header-services">
+        <div class="section__header">
             <h3 class="section__title">Mergers & Acquisitions</h3>
             <p class="section__subtitle-services">End-to-end buy-side and sell-side support—strategy, diligence, and
                 deal execution alongside your legal advisors.</p>
         </div>
 
-        <div class="grid grid--2" style="gap: var(--spacing-lg);">
+        <div class="grid grid--2" style="
+    column-gap: 48px;">
             <div class="service-item fade-in">
                 <h4 class="service-item__title">Buy-Side Advisory</h4>
                 <p class="service-item__description">Target screening, valuation, and deal modeling with focused

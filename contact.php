@@ -3,65 +3,16 @@ include 'partials/header.php';
 setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting and tax services. Get in touch with our experienced team for a consultation.');
 ?>
 
-<section class="section section--contact">
-    <div class="container">
-        <div class="section__header" style="align-items: center; margin-bottom: 0;">
-            <div>
-                <h1 class="hero__title-alt">Contact Us</h1>
-                <p class="hero__subtitle-alt">
-                    Get in touch with our team of experts today.</p>
-            </div>
-        </div>
+<section class="hero hero--internal" style="background-image: url('images/hero-contact.jpg');">
+    <div class="hero__content">
+        <h1 class="hero__title">Contact Us</h1>
+        <p class="hero__subtitle">Get in touch with our team of experts today.</p>
     </div>
-    <!-- <div class="container">
-        <div class="grid grid--2">
-            <div>
-                <h1 class="section__title mb-md">Contact Us</h1>
-                <p class="section__subtitle mb-lg">Ready to experience professional accounting excellence? Get in touch with our experienced team today.</p>
-                <div class="hero__actions">
-                    <a href="tel:+16045550123" class="btn btn--primary btn--large">(604) 555-0123</a>
-                    <a href="#contact-form" class="btn btn--secondary">Send Message</a>
-                </div>
-            </div>
-            <div>
-                <div style="background-color: var(--color-alt); padding: var(--spacing-lg); border-radius: var(--border-radius);">
-                    <h3 class="mt-0">Quick Contact</h3>
-                    <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 555-0123</a><br>
-                    <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a></p>
-                    <p><strong>Office Hours:</strong><br>
-                    Monday - Friday: 8:30 AM - 5:30 PM</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </section>
 
 <section class="section section" id="contact-form">
     <div class="container">
         <div class="grid grid--2">
-            <div class="fade-in">
-                <h2>Office Information</h2>
-                <address style="font-style: normal;">
-                    <p><strong>Hedden Chong LLP</strong><br>
-                        123 Professional Drive<br>
-                        Vancouver, BC V6B 1A1<br>
-                        Canada</p>
-
-                    <p><strong>Phone:</strong> <a href="tel:+16045550123">(604) 555-0123</a><br>
-                        <strong>Fax:</strong> (604) 555-0124<br>
-                        <strong>Email:</strong> <a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a>
-                    </p>
-                </address>
-
-                <h3>Office Hours</h3>
-                <p><strong>Monday - Friday:</strong> 8:30 AM - 5:30 PM<br>
-                    <strong>Saturday:</strong> By appointment only<br>
-                    <strong>Sunday:</strong> Closed
-                </p>
-
-                <p class="text-muted"><em>Extended hours available during tax season (January - April)</em></p>
-            </div>
-
             <div class="fade-in">
                 <h2>Send Us a Message</h2>
                 <form id="contact-form" class="contact-form">
@@ -115,52 +66,35 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
                     <button type="submit" class="btn btn--primary btn--large">Send Message</button>
                 </form>
             </div>
+
+            <div class="fade-in">
+                <div class="contact-info">
+                    <h3>Office Information</h3>
+                    <address style="font-style: normal;">
+                        <p style="font-size: 1.05rem;"><strong>Hedden Chong LLP</strong><br>
+                            #104-3989 Henning Drive<br>
+                            Burnaby, BC V5C 6P8<br>
+                            Canada</p>
+
+                        <div style="font-size: 1.05rem;">
+                            <p><strong>Phone:</strong><br><a href="tel:+16043205850">(604) 320-5850</a><br></p>
+                        </div>
+                        <div style="font-size: 1.05rem;">
+                            <p><strong>Fax:</strong><br>(604) 291-1601<br></p>
+                        </div>
+                        <div style="font-size: 1.05rem;">
+                            <p><strong>Email:</strong><br><a href="mailto:info@heddenchong.ca">info@heddenchong.ca</a>
+                            </p>
+                        </div>
+                    </address>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
-<section class="section--alt">
-    <div class="container">
-        <h2 class="section__title">Our Location</h2>
-        <p class="section__subtitle mb-xl">Conveniently located in downtown Vancouver with easy access to public transit
-            and parking.</p>
 
-        <div class="grid grid--2">
-            <div class="fade-in">
-                <div class="map-placeholder"
-                    style="width: 100%; height: 300px; background-color: #e5e7eb; border: 2px dashed #9ca3af; display: flex; align-items: center; justify-content: center; border-radius: var(--border-radius);">
-                    <div style="text-align: center; color: var(--color-muted);">
-                        <h3>Interactive Map</h3>
-                        <p>123 Professional Drive<br>Vancouver, BC V6B 1A1</p>
-                        <small>Google Maps integration would be placed here</small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="fade-in">
-                <h3>Transportation & Parking</h3>
-                <ul>
-                    <li><strong>SkyTrain:</strong> 5-minute walk from Burrard Station</li>
-                    <li><strong>Bus Routes:</strong> Multiple bus lines stop nearby</li>
-                    <li><strong>Parking:</strong> Underground visitor parking available</li>
-                    <li><strong>Bike Storage:</strong> Secure bike storage in building</li>
-                </ul>
-
-                <h3>Nearby Landmarks</h3>
-                <ul>
-                    <li>Vancouver Convention Centre - 0.3 km</li>
-                    <li>Waterfront Station - 0.5 km</li>
-                    <li>Canada Place - 0.6 km</li>
-                    <li>Downtown Financial District - 0.8 km</li>
-                </ul>
-
-                <div class="mt-lg">
-                    <a href="https://maps.google.com" target="_blank" class="btn btn--secondary">Get Directions</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- <section class="section section--alt">
     <div class="container">
@@ -183,18 +117,18 @@ setPageMeta('Contact Us', 'Contact Hedden Chong LLP for professional accounting 
     </div>
 </section> -->
 
-<section class="cta">
+<!-- <section class="cta">
     <div class="container">
         <h2 class="cta__title">Ready to Get Started?</h2>
         <p class="cta__text">Contact Hedden Chong LLP today to schedule a consultation and discover how our professional
             services can benefit you.</p>
         <div class="cta__actions">
-            <a href="tel:+16045550123" class="btn btn--white btn--large">(604) 555-0123</a>
-            <a href="mailto:info@heddenchong.ca" class="btn btn--secondary"
+            <a href="tel:+16043205850" class="btn btn--white btn--large">(604) 320-5850</a>
+            <a href="mailto:info@heddenchong.com" class="btn btn--secondary"
                 style="color: white; border-color: white;">Email Us</a>
         </div>
     </div>
-</section>
+</section> -->
 
 <script>
     // Additional form handling for contact form
